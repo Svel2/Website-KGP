@@ -32,7 +32,7 @@ export default function Footer() {
                             </a>
 
                             {/* Instagram */}
-                            <a href="https://instagram.com/kevin.gunapratama" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-400 transition-colors">
+                            <a href="https://www.instagram.com/kevin.gunapratama" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-400 transition-colors">
                                <img src="/svg/instagram.svg" alt="Instagram" className="w-5 h-5" />
                             </a>
                         </div>
