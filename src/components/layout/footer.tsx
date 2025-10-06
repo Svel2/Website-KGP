@@ -27,7 +27,7 @@ export default function Footer() {
                         </p>
                         <div className="flex space-x-4">
                             {/* Google Maps */}
-                            <a href="https://www.google.com/maps/d/embed?mid=1HGlQAeN6Hwwq-cqYc1bT9ZQWWDP3zXg" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-400 transition-colors">
+                            <a href="https://maps.app.goo.gl/hP1fGVvXhxqYBfok9" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-400 transition-colors">
                                 <img src="/svg/map-pin.svg" alt="Google Maps" className="w-5 h-5" />
                             </a>
 

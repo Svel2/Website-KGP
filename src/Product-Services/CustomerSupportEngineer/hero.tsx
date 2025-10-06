@@ -1,23 +1,32 @@
 'use client'
 
-export default function HeroCSE(){
-    return(
-        <section id="heroMecha">
-            <div className="bg-cover bg-center" style={{ backgroundImage: 'url(/images/customer-support-engineer-bg.jpg)' }}>
-                <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-black/10 backdrop-brightness-50">
-                    {/* Title */}
-                    <div className="max-w-3xl text-center mx-auto">
-                        <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        Customer Support Engineer
-                        </h1>
-                    </div>
-                    {/* End Title */}
+import Image from 'next/image'
 
-                    <div className="max-w-3xl text-center mx-auto">
-                        <p className="text-lg text-white/70">Our Customer Support Engineers (CSE) deliver on-site and remote assistance for ATM and IT operations. With strong technical knowledge and fast response, they ensure maximum uptime, preventive maintenance, and quick resolution of service issues.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+export default function HeroCSE() {
+  return (
+    <section id="heroMecha" className="relative h-[600px]">
+      {/* Background */}
+      <Image
+        src="/images/customer-support-engineer-bg.jpg"
+        alt="Background CSE"
+        fill
+        priority          // untuk hero biar cepat
+        fetchPriority="high"
+        sizes="100vw"
+        className="object-cover object-center"
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40" />
+
+      <div className="relative z-10 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+        <h1 className="text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium">
+          Customer Support Engineer
+        </h1>
+        <p className="mt-6 max-w-3xl mx-auto text-lg text-white/70">
+          Our Customer Support Engineers (CSE) deliver on-site and remote
+          assistance for ATM and IT operations...
+        </p>
+      </div>
+    </section>
+  )
 }
