@@ -23,7 +23,7 @@ export default function OurGallery() {
               <Card className="shadow-xl bg-white p-6 border border-gray-200 overflow-hidden ">
                 <div className="flex h-full w-full flex-col">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Gallery 1</h3>
-                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/gallery1.jpg')] bg-cover bg-center p-2">
+                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/image1v.jpg')] bg-cover bg-center p-2">
                     
                   </div>
                 </div>
@@ -31,7 +31,7 @@ export default function OurGallery() {
               <Card className="shadow-xl bg-white p-6 border border-gray-200 overflow-hidden ">
                 <div className="flex h-full w-full flex-col">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Gallery 2</h3>
-                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/gallery2.jpg')] bg-cover bg-center p-2">
+                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/image2v.jpg')] bg-cover bg-center p-2">
                     
                   </div>
                 </div>
@@ -39,7 +39,7 @@ export default function OurGallery() {
               <Card className="shadow-xl bg-white p-6 border border-gray-200 overflow-hidden">
                 <div className="flex h-full w-full flex-col">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Gallery 3</h3>
-                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/gallery3.jpg')] bg-cover bg-center p-2">
+                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/image3v.jpg')] bg-cover bg-center p-2">
                     
                   </div>
                 </div>
@@ -47,7 +47,7 @@ export default function OurGallery() {
               <Card className="shadow-xl bg-white p-6 border border-gray-200 overflow-hidden">
                 <div className="flex h-full w-full flex-col">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Gallery 4</h3>
-                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/gallery4.jpg')] bg-cover bg-center p-2">
+                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/image4v.jpg')] bg-cover bg-center p-2">
                     
                   </div>
                 </div>
@@ -55,8 +55,24 @@ export default function OurGallery() {
               <Card className="shadow-xl bg-white p-6 border border-gray-200 overflow-hidden">
                 <div className="flex h-full w-full flex-col">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Gallery 5</h3>
-                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/gallery5.jpg')] bg-cover bg-center p-2">
-                    
+                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/image5v.jpg')] bg-cover bg-center p-2">
+
+                  </div>
+                </div>
+              </Card>
+              <Card className="shadow-xl bg-white p-6 border border-gray-200 overflow-hidden">
+                <div className="flex h-full w-full flex-col">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Gallery 6</h3>
+                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/image6v.jpg')] bg-cover bg-center p-2">
+
+                  </div>
+                </div>
+              </Card>
+              <Card className="shadow-xl bg-white p-6 border border-gray-200 overflow-hidden">
+                <div className="flex h-full w-full flex-col">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Gallery 7</h3>
+                  <div className="flex-1 mt-2 rounded-lg border border-gray-200 bg-[url('/images/image7v.jpg')] bg-cover bg-center p-2">
+
                   </div>
                 </div>
               </Card>
