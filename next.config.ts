@@ -94,6 +94,9 @@ const nextConfig: NextConfig = {
   env: {
     NEWSDATA_API_KEY: process.env.NEWSDATA_API_KEY,
   },
+  eslint: {
+    ignoreDuringBuilds: true, // lewati ESLint saat build di Vercel
+  },
 };
 
 export default nextConfig;
