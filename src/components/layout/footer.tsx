@@ -70,7 +70,7 @@ export default function Footer() {
                     {/* Services */}
                     <div>
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-                            Our Services
+                            Product & Services
                         </h3>
                         <ul className="space-y-2">
                             <li>
@@ -84,23 +84,48 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services/ups-rework" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/UPS-Rework" className="text-gray-400 hover:text-white transition-colors">
                                     UPS Rework
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services/customer-support" className="text-gray-400 hover:text-white transition-colors">
-                                    Customer Support
+                                <Link href="/CustomerSupportEngineer" className="text-gray-400 hover:text-white transition-colors">
+                                    Customer Support Enginer
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services/monitoring" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/CallCenter" className="text-gray-400 hover:text-white transition-colors">
+                                    Call Center
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/Monitoring" className="text-gray-400 hover:text-white transition-colors">
                                     Monitoring
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/menuProduct" className="text-brand-500 hover:text-brand-400 transition-colors font-medium">
-                                    View All Services
+                                <Link href="/DuctingSystem" className="text-gray-400 hover:text-white transition-colors">
+                                    Ducting System
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/WorkshopMaintenanceLCD" className="text-gray-400 hover:text-white transition-colors">
+                                    Workshop Maintenance LCD
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/CassetteRework" className="text-gray-400 hover:text-white transition-colors">
+                                    Cassette Rework
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/ATMModuleRework" className="text-gray-400 hover:text-white transition-colors">
+                                    ATM Module Rework
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/Plumbing" className="text-gray-400 hover:text-white transition-colors">
+                                    Plumbing
                                 </Link>
                             </li>
                         </ul>
