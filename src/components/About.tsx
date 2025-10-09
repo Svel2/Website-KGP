@@ -115,7 +115,8 @@ export default function About() {
                                                 duration={1}
                                                 className="count-up-text"
                                             />
-                                            +</div>
+                                            +
+                                        </div>
                                         <div className="text-sm text-gray-600">{t('stats.cities')}</div>
                                     </div>
                                 </div>
