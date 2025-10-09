@@ -1,4 +1,5 @@
 ﻿'use client';
+import { useTranslation } from 'react-i18next';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import Image from 'next/image';
@@ -41,7 +42,7 @@ function SafeImage({ src, alt, fallback, className, width, height, fill }: SafeI
   // Daftar hostname yang sudah dikonfigurasi di next.config.js
   const configuredHosts = [
     'images.unsplash.com',
-    'pub-d9fefb329ddd42289dfb5c7f6499ec92.r2.dev',
+    'pub_f2c9500f95704113b1436b82287ee4f0',
     'rm.id',
     'www.cnnindonesia.com',
     'money.kompas.com',
@@ -113,6 +114,7 @@ interface NewsArticle {
 }
 
 export default function NewsATMFinance() {
+  const { t } = useTranslation('common');
   // Responsive configuration untuk menghemat API usage
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
@@ -120,8 +122,8 @@ export default function NewsATMFinance() {
   // Detect screen size untuk responsive API loading
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 768);
-      setIsTablet(window.innerWidth >= 768 && window.innerWidth < 1024);
+      setIsMobile(window.innerWidth < 640);
+      setIsTablet(window.innerWidth >= 640 && window.innerWidth < 1024);
     };
 
     checkScreenSize();
@@ -149,8 +151,8 @@ export default function NewsATMFinance() {
   
   // Responsive configuration untuk menghemat API usage
   const getPageSize = () => {
-    if (isMobile) return 4;      // Mobile: 4 articles per page
-    if (isTablet) return 6;      // Tablet: 6 articles per page
+    if (isMobile) return 3;      // Mobile: 3 articles per page
+    if (isTablet) return 5;      // Tablet: 5 articles per page
     return 8;                    // Desktop: 8 articles per page
   };
   const query = 'ATM OR bank OR perbankan OR fintech OR "kartu debit"';
@@ -307,30 +309,30 @@ export default function NewsATMFinance() {
 
   
   return (
-    <section id="news-atm-finance" className="section news-section py-10 bg-white">
-      <div className="news-inner max-w-7xl mx-auto px-6 ">
-        <div className="news-header text-center mb-10">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            News — ATM & Finance
+    <section id="news-atm-finance" className="section news-section py-8 md:py-10 bg-white">
+      <div className="news-inner max-w-7xl mx-auto px-4 md:px-6 ">
+        <div className="news-header text-center mb-6 md:mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 md:mb-4">
+            {t('news.heading')}
           </h2>
-          <p className="text-gray-600">
-            Latest updates from the Indonesian banking and ATM industry
+          <p className="text-sm md:text-base text-gray-600">
+            {t('news.description')}
           </p>
         </div>
 
-        <div className="news-carousel-wrapper relative mx-4">
+        <div className="news-carousel-wrapper relative mx-2 md:mx-4">
 
-          <div className="embla overflow-hidden lg:py-5 md:py-5" ref={emblaRef}>
-            <div className="embla__container flex gap-6">
+          <div className="embla overflow-hidden py-2 md:py-5" ref={emblaRef}>
+            <div className="embla__container flex gap-3 md:gap-4 lg:gap-6">
               {loading && articles.length === 0 ? (
                 // Loading skeletons
                 Array.from({ length: 4 }).map((_, index) => (
-                  <div key={index} className="news-card-skeleton flex flex-col h-full max-h-96 max-w-110 bg-white border border-gray-200 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] embla__slide flex-[0_0_320px]">
-                    <div className="h-48 bg-gray-300 animate-pulse rounded-t-xl"></div>
-                    <div className="p-5">
-                      <div className="h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-                      <div className="h-4 bg-gray-300 rounded mb-2 w-3/4 animate-pulse"></div>
-                      <div className="h-3 bg-gray-300 rounded w-1/2 animate-pulse"></div>
+                  <div key={index} className="news-card-skeleton flex flex-col h-full max-h-80 max-w-xs bg-white border border-gray-200 rounded-lg md:rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] embla__slide flex-[0_0_280px] md:flex-[0_0_320px]">
+                    <div className="h-36 md:h-48 bg-gray-300 animate-pulse rounded-t-lg md:rounded-t-xl"></div>
+                    <div className="p-3 md:p-5">
+                      <div className="h-3 bg-gray-300 rounded mb-2 animate-pulse"></div>
+                      <div className="h-3 bg-gray-300 rounded mb-2 w-3/4 animate-pulse"></div>
+                      <div className="h-2 bg-gray-300 rounded w-1/2 animate-pulse"></div>
                     </div>
                   </div>
                 ))
@@ -341,11 +343,11 @@ export default function NewsATMFinance() {
                     href={article.link || '#'}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex flex-col w-80 h-80 sm:h-72 md:h-72 lg:h-80 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer embla__slide flex-[0_0_320px]"
+                    className="group flex flex-col w-72 h-72 sm:w-80 sm:h-80 md:w-80 md:h-72 lg:w-80 lg:h-80 bg-white border border-gray-200 rounded-lg md:rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer embla__slide flex-[0_0_288px] sm:flex-[0_0_320px]"
                     role="listitem"
                     aria-label={`News article: ${article.title}`}
                   >
-                    <div className="relative h-32 sm:h-28 md:h-28 lg:h-32 flex-shrink-0 overflow-hidden">
+                    <div className="relative h-28 sm:h-32 md:h-28 lg:h-32 flex-shrink-0 overflow-hidden">
                       {article.image_url ? (
                         <SafeImage
                           src={article.image_url}
@@ -353,7 +355,7 @@ export default function NewsATMFinance() {
                           fill={true}
                           fallback={
                             <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                              <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <svg className="w-8 h-8 md:w-12 md:h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                               </svg>
                             </div>
@@ -362,7 +364,7 @@ export default function NewsATMFinance() {
                         />
                       ) : (
                         <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                          <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-8 h-8 md:w-12 md:h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                           </svg>
                         </div>
@@ -372,25 +374,25 @@ export default function NewsATMFinance() {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     </div>
 
-                    <div className="flex-1 flex flex-col p-4 sm:p-3">
+                    <div className="flex-1 flex flex-col p-3 sm:p-4">
                       {/* Meta Info */}
-                      <div className="flex items-center justify-between text-xs text-gray-500 mb-2 flex-shrink-0">
-                        <span className="font-medium text-blue-600 line-clamp-1">
+                      <div className="flex items-center justify-between text-xs text-gray-500 mb-1 sm:mb-2 flex-shrink-0">
+                        <span className="font-medium text-blue-600 line-clamp-1 text-xs sm:text-xs">
                           {escapeHtml(article.source_name || article.source_id || 'Unknown Source')}
                         </span>
-                        <span className="whitespace-nowrap">
+                        <span className="whitespace-nowrap text-xs">
                           {formatDate(article.pubDate)}
                         </span>
                       </div>
 
                       {/* Title */}
-                      <h3 className="text-base sm:text-sm font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors leading-tight flex-shrink-0 h-12 sm:h-10">
+                      <h3 className="text-sm font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors leading-tight flex-shrink-0 h-10">
                         {escapeHtml(article.title || 'Untitled')}
                       </h3>
 
                       {/* Description */}
-                      <p className="text-sm text-gray-600 line-clamp-3 leading-relaxed flex-grow h-16 sm:h-14">
-                        {escapeHtml(truncateText(article.description || 'No preview available.', 120))}
+                      <p className="text-xs text-gray-600 line-clamp-3 leading-relaxed flex-grow h-12 sm:h-14">
+                        {escapeHtml(truncateText(article.description || 'No preview available.', 100))}
                       </p>
                     </div>
 
@@ -406,18 +408,18 @@ export default function NewsATMFinance() {
           {articles.length > 3 && (
             <>
               <button
-                className="embla__prev absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-white rounded-full p-3 shadow-lg border border-gray-200 hover:bg-gray-50 transition-colors z-10"
+                className="embla__prev absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 bg-white rounded-full p-2 sm:p-3 shadow-lg border border-gray-200 hover:bg-gray-50 transition-colors z-10"
                 onClick={scrollPrev}
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
               </button>
               <button
-                className="embla__next absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-white rounded-full p-3 shadow-lg border border-gray-200 hover:bg-gray-50 transition-colors z-10"
+                className="embla__next absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 bg-white rounded-full p-2 sm:p-3 shadow-lg border border-gray-200 hover:bg-gray-50 transition-colors z-10"
                 onClick={scrollNext}
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </button>
@@ -434,7 +436,7 @@ export default function NewsATMFinance() {
                 className="btn news-retry bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors"
                 onClick={retryLoad}
               >
-                Retry
+                {t('buttons.retry')}
               </button>
             </div>
           </div>

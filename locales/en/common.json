@@ -1,0 +1,26 @@
+{
+  "language": {
+    "switchTo": "Switch to",
+    "current": "Current Language"
+  },
+  "buttons": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "viewServices": "View Services",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "retry": "Retry"
+  },
+  "loading": "Loading...",
+  "error": {
+    "generic": "An error occurred. Please try again.",
+    "network": "Network connection problem.",
+    "notFound": "Page not found."
+  },
+  "news": {
+    "heading": "News — ATM & Finance",
+    "description": "Latest updates from the Indonesian banking and ATM industry"
+  }
+}

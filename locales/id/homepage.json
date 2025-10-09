@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "title": "PT. Kevin Guna Pratama - Maintenance & Layanan ATM Seluruh Indonesia",
+    "description": "Mitra terpercaya untuk maintenance & layanan ATM berskala nasional. Menyediakan perbaikan, perawatan, dan peningkatan performa dengan standar industri terkemuka sejak 2014.",
+    "keywords": "maintenance ATM, layanan ATM, perbankan, mesin ATM, Kevin Guna Pratama, KGP, perbaikan ATM, layanan perbankan"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "subtitle": "Mitra Terpercaya untuk Layanan ATM",
+    "description": "Sejak 2014, PT. Kevin Guna Pratama telah menjadi mitra terpercaya untuk maintenance dan layanan ATM berskala nasional, melayani lebih dari 5.000 ATM di seluruh Indonesia."
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "name": "Nama",
+    "email": "Email",
+    "phone": "Telepon",
+    "message": "Pesan",
+    "send": "Kirim Pesan",
+    "success": "Pesan berhasil dikirim!",
+    "error": "Gagal mengirim pesan. Silakan coba lagi."
+  },
+  "gallery": {
+    "title": "Galeri Kami",
+    "subtitle": "PT. Kevin Guna Pratama",
+    "description": "Lihat saja bagaimana karya ini berjalan!",
+    "gallery1": "Galeri 1",
+    "gallery2": "Galeri 2",
+    "gallery3": "Galeri 3",
+    "gallery4": "Galeri 4",
+    "gallery5": "Galeri 5",
+    "gallery6": "Galeri 6",
+    "gallery7": "Galeri 7"
+  },
+  "why": {
+    "title": "Mengapa Memilih Kami",
+    "nationalNetwork": {
+      "title": "Jaringan Nasional",
+      "description": "Titik layanan tersebar di lebih dari 15 kota besar di Indonesia."
+    },
+    "certifiedTechnicians": {
+      "title": "Teknisi Bersertifikat",
+      "description": "Tim dilengkapi dengan pelatihan resmi dan sertifikasi BNSP."
+    },
+    "response247": {
+      "title": "Respons 24/7",
+      "description": "Layanan tersedia kapan saja untuk menjaga operasi ATM berjalan lancar."
+    },
+    "fixFirst": {
+      "title": "Filosofi Perbaikan Dulu",
+      "description": "Kami memprioritaskan perbaikan daripada penggantian untuk solusi hemat biaya."
+    }
+  },
+  "what": {
+    "title": "Apa yang Kami Capai?",
+    "subtitle": "Apa yang Kami Capai?",
+    "achievement": "Mencapai",
+    "description": "Membangun jaringan ATM Indonesia yang paling andal melalui keunggulan, inovasi, dan komitmen tak tergoyahkan pada pelayanan.",
+    "excellence": {
+      "title": "Keunggulan dalam Layanan ATM",
+      "description": "Menyediakan layanan ATM yang <span class=\"font-semibold text-orange-400\">andal, cepat, dan aman</span> di seluruh Indonesia dengan <span class=\"font-semibold text-orange-400\">waktu kerja maksimal</span> dan aksesibilitas tanpa hambatan untuk setiap pengguna."
+    },
+    "partnership": {
+      "title": "Mitra Tepercaya",
+      "description": "Dengan memprioritaskan <span class=\"font-semibold text-orange-400\">keunggulan operasional</span> dan memanfaatkan teknologi canggih, kami membantu mitra dan lembaga keuangan menjaga transaksi yang lancar sambil membangun kepercayaan dengan pemegang kartu."
+    },
+    "confidence": {
+      "title": "Kepercayaan Nasional",
+      "description": "Menciptakan <span class=\"font-semibold text-orange-400\">pengalaman yang aman dan memuaskan</span> yang memperkuat kepercayaan pada layanan perbankan modern di seluruh ekosistem keuangan Indonesia."
+    },
+    "stats": {
+      "uptime": {
+        "number": 99.9,
+        "suffix": "%",
+        "label": "Waktu Kerja Sistem",
+        "sublabel": "Keandalan terjamin"
+      },
+      "support": {
+        "number": 24,
+        "suffix": "/7",
+        "label": "Dukungan Tersedia",
+        "sublabel": "Selalu siap membantu"
+      },
+      "networks": {
+        "number": 1000,
+        "suffix": "+",
+        "label": "Jaringan ATM",
+        "sublabel": "Cakupan nasional"
+      },
+      "security": {
+        "number": 100,
+        "suffix": "%",
+        "label": "Transaksi Aman",
+        "sublabel": "Keamanan tingkat perbankan"
+      }
+    },
+    "commitment": {
+      "title": "Komitmen Kami",
+      "subtitle": "Layanan Andal",
+      "description": "Teknologi terpercaya & dukungan dedicated"
+    }
+  }
+}

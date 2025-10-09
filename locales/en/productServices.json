@@ -1,0 +1,63 @@
+{
+  "title": "Products & Services",
+  "subtitle": "Complete solutions for your infrastructure and banking service needs",
+  "services": {
+    "mechanicalElectrical": {
+      "name": "Mechanical Electrical",
+      "description": "We provide design, installation, and maintenance of M&E systems to ensure reliable, long-term building operations."
+    },
+    "logisticWarehouse": {
+      "name": "Logistic & Warehouse",
+      "description": "End-to-end logistics: inventory management, distribution, and fulfillment to optimize your supply chain."
+    },
+    "upsRework": {
+      "name": "UPS Rework",
+      "description": "UPS repair to restore performance, extend lifespan, and keep systems stable during power outages or fluctuations."
+    },
+    "customerSupportEngineer": {
+      "name": "Customer Support Engineer",
+      "description": "Our engineers deliver on-site & remote ATM/IT support, ensuring uptime, preventive maintenance, and fast issue resolution."
+    },
+    "callCenter": {
+      "name": "Call Center",
+      "description": "24/7 call center for quick response, ticketing, and issue escalation to keep operations running smoothly."
+    },
+    "monitoring": {
+      "name": "Monitoring",
+      "description": "Real-time monitoring of ATM & IT systems for early issue detection, fast coordination, and reliable recovery."
+    },
+    "ductingSystem": {
+      "name": "AC Ducting System",
+      "description": "Supply & installation of central AC systems for large buildings to ensure optimal cool air distribution."
+    },
+    "workshopMaintenanceLCD": {
+      "name": "Workshop Maintenance LCD",
+      "description": "Repair and refurbish ATM LCD screens for better reliability and longer service life."
+    },
+    "cassetteRework": {
+      "name": "Cassette Rework",
+      "description": "Professional rework of ATM cash cassettes to restore function, extend use, and cut replacement costs."
+    },
+    "atmModuleRework": {
+      "name": "ATM Module Rework",
+      "description": "Quick, high-quality repairs to keep ATM modules reliable and extend their lifespan."
+    },
+    "plumbing": {
+      "name": "Plumbing",
+      "description": "Efficient, durable plumbing system design and installation for modern building infrastructure since 2020."
+    }
+  },
+  "categories": {
+    "infrastructure": "Infrastructure",
+    "logistics": "Logistics",
+    "powerSystem": "Power System",
+    "technicalSupport": "Technical Support",
+    "customerService": "Customer Service",
+    "systemMonitoring": "System Monitoring",
+    "coolingSystem": "Cooling System",
+    "displayMaintenance": "Display Maintenance",
+    "cassetteRepair": "Cassette Repair",
+    "atmRepair": "ATM Repair",
+    "plumbingSystem": "Plumbing System"
+  }
+}

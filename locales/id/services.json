@@ -1,0 +1,226 @@
+{
+  "mechanicalElectrical": "Mekanikal Elektrikal",
+  "mechanicalElectricalDescription": "Sistem Mechanical & Electrical (M&E) adalah komponen penting dari infrastruktur modern. Kami menyediakan layanan desain, instalasi, dan pemeliharaan komprehensif untuk mendukung operasional bangunan yang andal dan efisiensi jangka panjang.",
+  "logisticWarehouse": "Logistik & Gudang",
+  "logisticWarehouseDescription": "Layanan Logistik & Gudang kami menyediakan solusi rantai pasokan komprehensif dengan manajemen inventaris yang efisien, fasilitas penyimpanan, dan sistem distribusi untuk mendukung operasi yang seamless.",
+  "upsRework": "Perbaikan UPS",
+  "upsReworkDescription": "Layanan Perbaikan UPS kami memastikan sistem daya cadangan yang andal melalui perbaikan ahli, pengujian, dan pemeliharaan komponen UPS untuk menjamin pasokan daya yang tidak terputus.",
+  "customerSupportEngineer": "Teknisi Dukungan Pelanggan",
+  "customerSupportEngineerDescription": "Teknisi Dukungan Pelanggan kami menyediakan keahlian teknis dan dukungan di lokasi untuk memastikan performa optimal dari semua sistem dan peralatan.",
+  "callCenter": "Pusat Panggilan",
+  "callCenterDescription": "Layanan Pusat Panggilan kami memberikan dukungan pelanggan 24/7 dengan profesionalisme tinggi, memastikan semua pertanyaan dan keluhan ATM ditangani dengan cepat dan efisien.",
+  "monitoring": "Pemantauan",
+  "monitoringDescription": "Sistem Pemantauan real-time kami memberikan visibilitas penuh atas status ATM, memungkinkan deteksi dini masalah dan optimasi performa jaringan ATM nasional.",
+  "ductingSystem": "Sistem Ducting",
+  "ductingSystemDescription": "Layanan Sistem Ducting kami menyediakan desain, instalasi, dan pemeliharaan komprehensif dari sistem ducting HVAC untuk distribusi udara dan kenyaman optimal.",
+  "workshopMaintenanceLCD": "Bengkel Perawatan LCD",
+  "workshopMaintenanceLCDDescription": "Layanan Bengkel Perawatan LCD kami menyediakan layanan perbaikan dan pemeliharaan ahli untuk display LCD dan komponennya.",
+  "cassetteRework": "Perbaikan Cassette",
+  "cassetteReworkDescription": "Layanan Perbaikan Cassette kami menyediakan perbaikan dan refurbishment ahli untuk modul cassette ATM untuk memastikan fungsionalitas optimal.",
+  "atmModuleRework": "Perbaikan Modul ATM",
+  "atmModuleReworkDescription": "Layanan Perbaikan Modul ATM kami memastikan performa yang andal dan umur panjang perangkat ATM. Dengan fasilitas perbaikan canggih, kontrol kualitas yang ketat, dan tim terampil, kami menyediakan solusi perbaikan yang cepat dan efektif untuk komponen ATM kritis.",
+  "plumbing": "Plumbing",
+  "plumbingDescription": "Layanan Plumbing kami menyediakan instalasi, pemeliharaan, dan perbaikan komprehensif dari sistem plumbing untuk properti residensial dan komersial.",
+  "hero": {
+    "mechanicalElectrical": {
+      "title": "Mekanikal Elektrikal",
+      "description": "Sistem Mechanical & Electrical (M&E) adalah komponen penting dari infrastruktur modern. Kami menyediakan layanan desain, instalasi, dan pemeliharaan komprehensif untuk mendukung operasional bangunan yang andal dan efisiensi jangka panjang."
+    },
+    "logisticWarehouse": {
+      "title": "Logistik & Gudang",
+      "description": "Layanan Logistik & Gudang kami menyediakan solusi rantai pasokan komprehensif dengan manajemen inventaris yang efisien, fasilitas penyimpanan, dan sistem distribusi untuk mendukung operasi yang seamless."
+    },
+    "upsRework": {
+      "title": "Perbaikan UPS",
+      "description": "Layanan Perbaikan UPS kami memastikan sistem daya cadangan yang andal melalui perbaikan ahli, pengujian, dan pemeliharaan komponen UPS untuk menjamin pasokan daya yang tidak terputus."
+    },
+    "customerSupportEngineer": {
+      "title": "Teknisi Dukungan Pelanggan",
+      "description": "Teknisi Dukungan Pelanggan kami menyediakan keahlian teknis dan dukungan di lokasi untuk memastikan performa optimal dari semua sistem dan peralatan."
+    },
+    "callCenter": {
+      "title": "Pusat Panggilan",
+      "description": "Layanan Pusat Panggilan kami memberikan dukungan pelanggan 24/7 dengan profesionalisme tinggi, memastikan semua pertanyaan dan keluhan ATM ditangani dengan cepat dan efisien."
+    },
+    "atmModuleRework": {
+      "title": "Perbaikan Modul ATM",
+      "description": "Layanan Perbaikan Modul ATM kami memastikan performa yang andal dan umur panjang perangkat ATM. Dengan fasilitas perbaikan canggih, kontrol kualitas yang ketat, dan tim terampil, kami menyediakan solusi perbaikan yang cepat dan efektif untuk komponen ATM kritis."
+    },
+    "monitoring": {
+      "title": "Pemantauan",
+      "description": "Sistem Pemantauan real-time kami memberikan visibilitas penuh atas status ATM, memungkinkan deteksi dini masalah dan optimasi performa jaringan ATM nasional."
+    },
+    "ductingSystem": {
+      "title": "Sistem Ducting",
+      "description": "Layanan Sistem Ducting kami menyediakan desain, instalasi, dan pemeliharaan komprehensif dari sistem ducting HVAC untuk distribusi udara dan kenyamanan optimal."
+    },
+    "workshopMaintenanceLCD": {
+      "title": "Bengkel Perawatan LCD",
+      "description": "Layanan Bengkel Perawatan LCD kami menyediakan layanan perbaikan dan pemeliharaan ahli untuk display LCD dan komponennya."
+    },
+    "cassetteRework": {
+      "title": "Perbaikan Cassette",
+      "description": "Layanan Perbaikan Cassette kami menyediakan perbaikan dan refurbishment ahli untuk modul cassette ATM untuk memastikan fungsionalitas optimal."
+    },
+    "plumbing": {
+      "title": "Plumbing",
+      "description": "Layanan Plumbing kami menyediakan instalasi, pemeliharaan, dan perbaikan komprehensif dari sistem plumbing untuk properti residensial dan komersial."
+    }
+  },
+  "ourService": {
+    "title": "Layanan Kami",
+    "description": "Keunggulan Kami",
+    "contactUs": "Hubungi Kami",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "projects": {
+      "mechanicalElectrical": {
+        "hvacSystems": {
+          "title": "Sistem HVAC",
+          "description": "Desain dan instalasi sistem Heating, Ventilation, and Air Conditioning untuk kenyamanan optimal, efisiensi energi, dan kepatuhan lingkungan."
+        },
+        "electricalSystems": {
+          "title": "Sistem Elektrikal",
+          "description": "Instalasi distribusi daya, pencahayaan, dan sistem cadangan yang andal untuk memastikan keselamatan dan kelangsungan operasional semua fasilitas."
+        },
+        "plumbingIntegration": {
+          "title": "Integrasi Plumbing",
+          "description": "Dukungan pekerjaan plumbing dalam proyek M&E untuk menyediakan solusi infrastruktur lengkap sesuai spesifikasi proyek."
+        }
+      },
+      "logisticWarehouse": {
+        "secureStorage": {
+          "title": "Penyimpanan Aman",
+          "description": "Menyediakan fasilitas penyimpanan yang aman dan terorganisir untuk suku cadang ATM, peralatan IT, dan material sensitif dengan pemantauan penuh."
+        },
+        "distribution": {
+          "title": "Distribusi",
+          "description": "Layanan transportasi dan pengiriman yang efisien memastikan peralatan tiba di lokasi cabang tepat waktu dan dalam kondisi sempurna."
+        },
+        "inventoryManagement": {
+          "title": "Manajemen Inventaris",
+          "description": "Sistem pelacakan dan pelaporan real-time untuk menjaga level stok akurat dan memastikan operasi rantai pasokan yang lancar."
+        }
+      },
+      "upsRework": {
+        "diagnosticsRepair": {
+          "title": "Diagnostik & Perbaikan",
+          "description": "Layanan diagnostik dan perbaikan komprehensif untuk sistem UPS untuk mengembalikan fungsionalitas optimal dan memperpanjang umur peralatan."
+        },
+        "testingCalibration": {
+          "title": "Pengujian & Kalibrasi",
+          "description": "Prosedur pengujian dan kalibrasi menyeluruh untuk memastikan sistem UPS memenuhi standar dan spesifikasi kinerja."
+        },
+        "preventiveMaintenance": {
+          "title": "Pemeliharaan Preventif",
+          "description": "Program pemeliharaan teratur untuk mencegah kegagalan UPS dan memastikan daya cadangan andal saat paling dibutuhkan."
+        }
+      },
+      "customerSupportEngineer": {
+        "technicalSupport": {
+          "title": "Dukungan Teknis",
+          "description": "Bantuan teknis di lokasi dan jarak jauh untuk pemecahan masalah dan penyelesaian masalah peralatan yang kompleks."
+        },
+        "maintenanceServices": {
+          "title": "Layanan Pemeliharaan",
+          "description": "Layanan pemeliharaan dan optimasi terjadwal untuk memastikan kinerja puncak semua sistem dan peralatan."
+        },
+        "trainingConsultation": {
+          "title": "Pelatihan & Konsultasi",
+          "description": "Layanan pelatihan dan konsultasi ahli untuk meningkatkan pengetahuan operasional dan praktik terbaik."
+        }
+      },
+      "callCenter": {
+        "supportServices": {
+          "title": "Layanan Dukungan 24/7",
+          "description": "Dukungan pelanggan sepanjang waktu dengan agen profesional untuk menangani semua pertanyaan dan masalah teknis."
+        },
+        "incidentManagement": {
+          "title": "Manajemen Insiden",
+          "description": "Pelaporan, pelacakan, dan penyelesaian insiden yang efisien untuk meminimalkan downtime dan gangguan layanan."
+        },
+        "customerAssistance": {
+          "title": "Bantuan Pelanggan",
+          "description": "Program bantuan pelanggan komprehensif termasuk bimbingan teknis dan koordinasi layanan."
+        }
+      },
+      "monitoring": {
+        "realTimeMonitoring": {
+          "title": "Pemantauan Real-time",
+          "description": "Sistem pemantauan canggih yang menyediakan visibilitas langsung ke status dan metrik kinerja jaringan ATM."
+        },
+        "alertManagement": {
+          "title": "Manajemen Peringatan",
+          "description": "Sistem peringatan cerdas untuk deteksi dini masalah dan respons cepat untuk mencegah gangguan layanan."
+        },
+        "performanceAnalytics": {
+          "title": "Analitik Kinerja",
+          "description": "Analitik dan pelaporan komprehensif untuk mengoptimalkan kinerja jaringan dan mengidentifikasi peluang perbaikan."
+        }
+      },
+      "ductingSystem": {
+        "hvacDucting": {
+          "title": "Ducting HVAC",
+          "description": "Desain dan instalasi profesional sistem ducting HVAC untuk distribusi udara dan kenyamanan optimal."
+        },
+        "ductMaintenance": {
+          "title": "Pemeliharaan Duct",
+          "description": "Layanan pembersihan dan pemeliharaan teratur untuk memastikan kualitas udara dan efisiensi sistem."
+        },
+        "systemOptimization": {
+          "title": "Optimasi Sistem",
+          "description": "Layanan optimasi kinerja untuk meningkatkan efisiensi sistem ducting dan mengurangi biaya energi."
+        }
+      },
+      "workshopMaintenanceLCD": {
+        "lcdRepair": {
+          "title": "Perbaikan LCD",
+          "description": "Layanan perbaikan ahli untuk display LCD dan komponen yang rusak atau tidak berfungsi."
+        },
+        "screenRefurbishment": {
+          "title": "Refurbishment Layar",
+          "description": "Layanan refurbishment profesional untuk mengembalikan layar LCD ke kondisi seperti baru."
+        },
+        "qualityTesting": {
+          "title": "Pengujian Kualitas",
+          "description": "Prosedur pengujian ketat untuk memastikan LCD yang diperbaiki memenuhi standar kualitas dan kinerja."
+        }
+      },
+      "cassetteRework": {
+        "cassetteRepair": {
+          "title": "Perbaikan Cassette",
+          "description": "Layanan perbaikan profesional untuk cassette uang tunai ATM untuk mengembalikan fungsionalitas penuh."
+        },
+        "componentReplacement": {
+          "title": "Penggantian Komponen",
+          "description": "Penggantian komponen cassette yang aus atau rusak dengan suku cadang asli untuk keandalan."
+        },
+        "functionalTesting": {
+          "title": "Pengujian Fungsional",
+          "description": "Pengujian komprehensif untuk memastikan cassette yang diperbaiki beroperasi dengan benar dan aman."
+        }
+      },
+      "moduleRepair": {
+        "title": "Perbaikan Modul",
+        "description": "Perbaikan komprehensif modul ATM dengan diagnosis lanjutan dan proses kualitas standar untuk mengembalikan fungsionalitas."
+      },
+      "qualityControl": {
+        "title": "Kontrol Kualitas & Pengujian",
+        "description": "Prosedur pengujian ketat untuk memastikan setiap modul yang diperbaiki memenuhi standar operasional, keandalan, dan kepatuhan."
+      },
+      "plumbing": {
+        "systemInstallation": {
+          "title": "Instalasi Sistem",
+          "description": "Instalasi profesional sistem plumbing lengkap untuk properti residensial dan komersial."
+        },
+        "maintenanceRepair": {
+          "title": "Pemeliharaan & Perbaikan",
+          "description": "Layanan pemeliharaan dan perbaikan komprehensif untuk menjaga sistem plumbing berjalan efisien."
+        },
+        "inspectionServices": {
+          "title": "Layanan Inspeksi",
+          "description": "Layanan inspeksi menyeluruh untuk mengidentifikasi masalah potensial dan memastikan kepatuhan kode."
+        }
+      }
+    }
+  }
+}

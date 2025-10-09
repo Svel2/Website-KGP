@@ -1,5 +1,10 @@
 import type { IStaticMethods } from "preline/dist";
 
+declare module '*.json' {
+  const content: any;
+  export default content;
+}
+
 declare global {
   interface Window {
     // Optional third-party libraries

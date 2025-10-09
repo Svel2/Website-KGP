@@ -87,3 +87,18 @@ jspm_packages/
 # Temporary folders
 tmp/
 temp/
+
+# Claude AI files
+.claude/
+
+# Analysis files
+*.md
+!README.md
+
+# Test scripts
+check-*.js
+test-*.js
+fix-*.js
+
+# Build artifacts
+dist/

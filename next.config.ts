@@ -1,6 +1,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // Transpile packages yang perlu di-compile
+  transpilePackages: ['@preline/carousel', 'preline'],
+  
   images: {
     // Gunakan host yang kamu butuhkan aja
     remotePatterns: [

@@ -1,0 +1,13 @@
+{
+  "title": "About Us",
+  "subtitle": "Trusted Nationwide Partner for ATM Maintenance & Services",
+  "description1": "PT. Kevin Guna Pratama (KGP) is a national company specializing in ATM Maintenance & Services, delivering repair, maintenance, and performance upgrades with industry-leading standards.",
+  "description2": "Since its establishment in 2014, KGP has grown from a regional provider into a trusted nationwide partner for major banks and vendors. Guided by the philosophy of \"fix-first, replace-last,\" we provide cost-efficient, fast, and reliable solutions.",
+  "description3": "With over 5,000 ATMs serviced across Indonesia, our certified technicians ensure seamless banking operations for clients in major cities nationwide.",
+  "stats": {
+    "founded": "Founded",
+    "atmsServiced": "ATMs Serviced",
+    "support": "Support",
+    "cities": "Cities"
+  }
+}

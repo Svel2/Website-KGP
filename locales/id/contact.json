@@ -1,0 +1,14 @@
+{
+  "title": "Hubungi Kami",
+  "subtitle": "Kami senang berbicara tentang bagaimana kami dapat membantu Anda.",
+  "formTitle": "Isi formulir",
+  "firstName": "Nama Depan",
+  "lastName": "Nama Belakang",
+  "email": "Email",
+  "message": "Pesan",
+  "messagePlaceholder": "Ceritakan tentang kebutuhan maintenance ATM Anda...",
+  "sending": "Mengirim...",
+  "send": "Kirim",
+  "success": "Terima kasih atas pertanyaan Anda. Kami akan segera menghubungi Anda kembali!",
+  "error": "Gagal mengirim pesan. Silakan coba lagi."
+}

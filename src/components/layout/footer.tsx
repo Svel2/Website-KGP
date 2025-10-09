@@ -1,8 +1,11 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+    const { t } = useTranslation('footer');
+
     return (
         <footer className="bg-gray-900 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -19,11 +22,11 @@ export default function Footer() {
                             />
                             <div>
                                 <h3 className="text-xl font-bold">Kevin Guna Pratama</h3>
-                                <p className="text-sm text-gray-400">Professional ATM Services</p>
+                                <p className="text-sm text-gray-400">{t('companyInfo.tagline')}</p>
                             </div>
                         </div>
                         <p className="text-gray-400 mb-6">
-                            Trusted partner for comprehensive ATM maintenance and technical solutions across Indonesia.
+                            {t('companyInfo.description')}
                         </p>
                         <div className="flex space-x-4">
                             {/* Google Maps */}
@@ -41,27 +44,27 @@ export default function Footer() {
                     {/* Quick Links */}
                     <div>
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-                            Quick Links
+                            {t('quickLinks.title')}
                         </h3>
                         <ul className="space-y-2">
                             <li>
                                 <Link href="/" className="text-gray-400 hover:text-white transition-colors">
-                                    Home
+                                    {t('quickLinks.home')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/#about" className="text-gray-400 hover:text-white transition-colors">
-                                    About Us
+                                    {t('quickLinks.aboutUs')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/#service-points" className="text-gray-400 hover:text-white transition-colors">
-                                    Service Points
+                                    {t('quickLinks.servicePoints')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/#news-atm-finance" className="text-gray-400 hover:text-white transition-colors">
-                                    News
+                                    {t('quickLinks.news')}
                                 </Link>
                             </li>
                         </ul>
@@ -70,62 +73,62 @@ export default function Footer() {
                     {/* Services */}
                     <div>
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-                            Product & Services
+                            {t('services.title')}
                         </h3>
                         <ul className="space-y-2">
                             <li>
                                 <Link href="/mechanical-electrical" className="text-gray-400 hover:text-white transition-colors">
-                                    Mechanical Electrical
+                                    {t('services.mechanicalElectrical')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/logistic-warehouse" className="text-gray-400 hover:text-white transition-colors">
-                                    Logistic & Warehouse
+                                    {t('services.logisticWarehouse')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/UPS-Rework" className="text-gray-400 hover:text-white transition-colors">
-                                    UPS Rework
+                                    {t('services.upsRework')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/CustomerSupportEngineer" className="text-gray-400 hover:text-white transition-colors">
-                                    Customer Support Enginer
+                                    {t('services.customerSupportEngineer')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/CallCenter" className="text-gray-400 hover:text-white transition-colors">
-                                    Call Center
+                                    {t('services.callCenter')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/Monitoring" className="text-gray-400 hover:text-white transition-colors">
-                                    Monitoring
+                                    {t('services.monitoring')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/DuctingSystem" className="text-gray-400 hover:text-white transition-colors">
-                                    Ducting System
+                                    {t('services.ductingSystem')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/WorkshopMaintenanceLCD" className="text-gray-400 hover:text-white transition-colors">
-                                    Workshop Maintenance LCD
+                                    {t('services.workshopMaintenanceLCD')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/CassetteRework" className="text-gray-400 hover:text-white transition-colors">
-                                    Cassette Rework
+                                    {t('services.cassetteRework')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/ATMModuleRework" className="text-gray-400 hover:text-white transition-colors">
-                                    ATM Module Rework
+                                    {t('services.atmModuleRework')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/Plumbing" className="text-gray-400 hover:text-white transition-colors">
-                                    Plumbing
+                                    {t('services.plumbing')}
                                 </Link>
                             </li>
                         </ul>
@@ -134,7 +137,7 @@ export default function Footer() {
                     {/* Contact */}
                     <div>
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-                            Contact Info
+                            {t('contact.title')}
                         </h3>
                         <div className="space-y-3">
                             <div className="flex items-start space-x-3">
@@ -142,7 +145,7 @@ export default function Footer() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                                 </svg>
                                 <div>
-                                    <p className="text-sm font-medium text-white">Email</p>
+                                    <p className="text-sm font-medium text-white">{t('contact.email')}</p>
                                     <a href="mailto:support@kevingunapratama.com" className="text-gray-400 hover:text-white transition-colors">
                                         support@kevingunapratama.com
                                     </a>
@@ -154,7 +157,7 @@ export default function Footer() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                                 </svg>
                                 <div>
-                                    <p className="text-sm font-medium text-white">Address</p>
+                                    <p className="text-sm font-medium text-white">{t('contact.address')}</p>
                                     <p className="text-gray-400">
                                         Jl. Karya Utama No.19, RT.3/RW.6<br />
                                         Srengseng, Kec. Kembangan<br />
@@ -181,17 +184,17 @@ export default function Footer() {
                 <div className="mt-12 pt-8 border-t border-gray-800">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="text-sm text-gray-400">
-                            © 2025 PT. Kevin Guna Pratama. All rights reserved.
+                            {t('bottomSection.copyright')}
                         </div>
                         <div className="mt-4 md:mt-0 flex space-x-6 text-sm text-gray-400">
                             <Link href="/privacy" className="hover:text-white transition-colors">
-                                Privacy Policy
+                                {t('bottomSection.privacyPolicy')}
                             </Link>
                             <Link href="/terms" className="hover:text-white transition-colors">
-                                Terms of Service
+                                {t('bottomSection.termsOfService')}
                             </Link>
                             <Link href="/sitemap" className="hover:text-white transition-colors">
-                                Sitemap
+                                {t('bottomSection.sitemap')}
                             </Link>
                         </div>
                     </div>

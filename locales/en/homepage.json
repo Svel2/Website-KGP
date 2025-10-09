@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "PT. Kevin Guna Pratama - ATM Maintenance & Services Nationwide",
+    "description": "Trusted nationwide partner for ATM maintenance & services. Delivering repair, maintenance, and performance upgrades with industry-leading standards since 2014.",
+    "keywords": "ATM maintenance, ATM services, perbankan, mesin ATM, Kevin Guna Pratama, KGP, ATM repair, banking services"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Trusted Partner for ATM Services",
+    "description": "Since 2014, PT. Kevin Guna Pratama has been a trusted nationwide partner for ATM maintenance and services, serving over 5,000 ATMs across Indonesia."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "PT. Kevin Guna Pratama",
+    "description": "Just look at it go!",
+    "gallery1": "Gallery 1",
+    "gallery2": "Gallery 2",
+    "gallery3": "Gallery 3",
+    "gallery4": "Gallery 4",
+    "gallery5": "Gallery 5",
+    "gallery6": "Gallery 6",
+    "gallery7": "Gallery 7"
+  },
+  "why": {
+    "title": "Why Choose Us",
+    "nationalNetwork": {
+      "title": "National Network",
+      "description": "Service points are spread across more than 15 major cities in Indonesia."
+    },
+    "certifiedTechnicians": {
+      "title": "Certified Technicians",
+      "description": "The team is equipped with official training and BNSP certification."
+    },
+    "response247": {
+      "title": "24/7 response",
+      "description": "Services are available at any time to keep your ATM operations running smoothly."
+    },
+    "fixFirst": {
+      "title": "Fix-First Philosophy",
+      "description": "We prioritize repair over replacement for cost-effective solutions."
+    }
+  },
+  "what": {
+    "title": "What Do We Aim to Achieve?",
+    "subtitle": "What Do We Aim to",
+    "achievement": "Achieve?",
+    "description": "Building Indonesia's most reliable ATM network through excellence, innovation, and unwavering commitment to service.",
+    "excellence": {
+      "title": "Excellence in ATM Services",
+      "description": "Delivering <span class=\"font-semibold text-orange-400\">reliable, fast, and secure</span> ATM services across Indonesia with <span class=\"font-semibold text-orange-400\">maximum uptime</span> and seamless accessibility for every user."
+    },
+    "partnership": {
+      "title": "Trusted Partnership",
+      "description": "By prioritizing <span class=\"font-semibold text-orange-400\">operational excellence</span> and leveraging advanced technology, we help partners and financial institutions maintain smooth transactions while building trust with cardholders."
+    },
+    "confidence": {
+      "title": "Nationwide Confidence",
+      "description": "Creating a <span class=\"font-semibold text-orange-400\">safe and satisfying experience</span> that strengthens confidence in modern banking services across Indonesia's financial ecosystem."
+    },
+    "stats": {
+      "uptime": {
+        "number": 99.9,
+        "suffix": "%",
+        "label": "System Uptime",
+        "sublabel": "Guaranteed reliability"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Support Available",
+        "sublabel": "Always here for you"
+      },
+      "networks": {
+        "number": 1000,
+        "suffix": "+",
+        "label": "ATM Networks",
+        "sublabel": "Nationwide coverage"
+      },
+      "security": {
+        "number": 100,
+        "suffix": "%",
+        "label": "Secure Transactions",
+        "sublabel": "Bank-level security"
+      }
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "subtitle": "Reliable Service",
+      "description": "Trusted technology & dedicated support"
+    }
+  }
+}

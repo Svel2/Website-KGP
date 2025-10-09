@@ -3,12 +3,11 @@ import Header from '@/components/layout/Header';
 import I18nProvider from '@/components/I18nProvider';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - PT. Kevin Guna Pratama',
-  description: 'Get in touch with PT. Kevin Guna Pratama for professional ATM maintenance and services across Indonesia.',
-  keywords: 'contact, ATM maintenance, customer service, Indonesia',
+  title: 'Mechanical Electrical - PT. Kevin Guna Pratama',
+  description: 'Professional Mechanical & Electrical services by PT. Kevin Guna Pratama',
 };
 
-export default function ContactLayout({
+export default function MechanicalElectricalLayout({
   children,
 }: {
   children: React.ReactNode;

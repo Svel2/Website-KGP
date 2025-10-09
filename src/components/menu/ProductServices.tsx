@@ -1,79 +1,80 @@
+'use client';
 import { HoverEffect } from "../ui/card-hover-effect";
+import { useTranslation } from 'react-i18next';
 
 export function ProductServicesMenu() {
+  const { t } = useTranslation('services');
+
+  // Process the projects array to translate titles and descriptions
+  const translatedProjects = projects.map(project => ({
+    ...project,
+    title: t(project.title),
+    description: t(project.description)
+  }));
+
   return (
     <section className="pt-32 pb-32">
-    <div className="max-w-5xl mx-auto px-8">
-      <HoverEffect items={projects} />
-    </div>
+      <div className="max-w-5xl mx-auto px-8">
+        <HoverEffect items={translatedProjects} />
+      </div>
     </section>
   );
 }
+
 export const projects = [
   {
-    title: "⚡ Mechanical Electrical",
-    description:
-      "We provide design, installation, and maintenance of M&E systems to ensure reliable, long-term building operations.",
+    title: "mechanicalElectrical.name",
+    description: "mechanicalElectrical.description",
     link: "/mechanical-electrical",
   },
   {
-    title: "🚚 Logistic & Warehouse",
-    description:
-      "End-to-end logistics: inventory management, distribution, and fulfillment to optimize your supply chain.",
+    title: "logisticWarehouse.name",
+    description: "logisticWarehouse.description",
     link: "/logistic-warehouse",
   },
   {
-    title: "🔋 UPS Rework",
-    description:
-      "UPS repair to restore performance, extend lifespan, and keep systems stable during power outages or fluctuations.",
+    title: "upsRework.name",
+    description: "upsRework.description",
     link: "/UPS-Rework",
   },
   {
-    title: "🛠 Customer Support Engineer",
-    description:
-      "Our engineers deliver on-site & remote ATM/IT support, ensuring uptime, preventive maintenance, and fast issue resolution.",
+    title: "customerSupportEngineer.name",
+    description: "customerSupportEngineer.description",
     link: "/CustomerSupportEngineer",
   },
   {
-    title: "📞 Call Center",
-    description:
-      "24/7 call center for quick response, ticketing, and issue escalation to keep operations running smoothly.",
+    title: "callCenter.name",
+    description: "callCenter.description",
     link: "/CallCenter",
   },
   {
-    title: "👀 Monitoring",
-    description:
-      "Real-time monitoring of ATM & IT systems for early issue detection, fast coordination, and reliable recovery.",
+    title: "monitoring.name",
+    description: "monitoring.description",
     link: "/Monitoring",
   },
   {
-    title: "❄️ AC Ducting System",
-    description:
-      "Supply & installation of central AC systems for large buildings to ensure optimal cool air distribution.",
+    title: "ductingSystem.name",
+    description: "ductingSystem.description",
     link: "/DuctingSystem",
   },
   {
-    title: "🖥 Workshop Maintenance LCD",
-    description:
-      "Repair and refurbish ATM LCD screens for better reliability and longer service life.",
+    title: "workshopMaintenanceLCD.name",
+    description: "workshopMaintenanceLCD.description",
     link: "/WorkshopMaintenanceLCD",
   },
   {
-    title: "💵 Cassette Rework",
-    description:
-      "Professional rework of ATM cash cassettes to restore function, extend use, and cut replacement costs.",
+    title: "cassetteRework.name",
+    description: "cassetteRework.description",
     link: "/CassetteRework",
   },
   {
-    title: "🏧 ATM Module Rework",
-    description:
-      "Quick, high-quality repairs to keep ATM modules reliable and extend their lifespan.",
+    title: "atmModuleRework.name",
+    description: "atmModuleRework.description",
     link: "/ATMModuleRework",
   },
   {
-    title: "🚰 Plumbing",
-    description:
-      "Efficient, durable plumbing system design and installation for modern building infrastructure since 2020.",
+    title: "plumbing.name",
+    description: "plumbing.description",
     link: "/Plumbing",
   }
 ];

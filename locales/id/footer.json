@@ -1,0 +1,38 @@
+{
+  "companyInfo": {
+    "tagline": "Layanan ATM Profesional",
+    "description": "Mitra terpercaya untuk maintenance ATM komprehensif dan solusi teknis di seluruh Indonesia."
+  },
+  "quickLinks": {
+    "title": "Tautan Cepat",
+    "home": "Beranda",
+    "aboutUs": "Tentang Kami",
+    "servicePoints": "Layanan Kami",
+    "news": "Berita"
+  },
+  "services": {
+    "title": "Produk & Layanan",
+    "mechanicalElectrical": "Mekanikal Elektrikal",
+    "logisticWarehouse": "Logistik & Gudang",
+    "upsRework": "Perbaikan UPS",
+    "customerSupportEngineer": "Teknisi Dukungan Pelanggan",
+    "callCenter": "Pusat Panggilan",
+    "monitoring": "Pemantauan",
+    "ductingSystem": "Sistem Ducting",
+    "workshopMaintenanceLCD": "Bengkel Perawatan LCD",
+    "cassetteRework": "Perbaikan Cassette",
+    "atmModuleRework": "Perbaikan Modul ATM",
+    "plumbing": "Plumbing"
+  },
+  "contact": {
+    "title": "Info Kontak",
+    "email": "Email",
+    "address": "Alamat"
+  },
+  "bottomSection": {
+    "copyright": "© 2025 PT. Kevin Guna Pratama. Seluruh hak dilindungi.",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Syarat & Ketentuan",
+    "sitemap": "Peta Situs"
+  }
+}

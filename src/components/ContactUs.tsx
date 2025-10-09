@@ -1,8 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function ContactUs() {
+  const { t } = useTranslation('contact');
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -28,7 +31,7 @@ export default function ContactUs() {
 
     try {
       // Ambil URL dari environment variable
-      const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL;
+      const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzsBcD3FPy2oDwwiYT8REzqzOf5icuQgM5UN_CK1r1Rmcjy8CeMgONnt9bxMizTmjnv/exec'; 
 
       if (!GOOGLE_SCRIPT_URL) {
         throw new Error('Configuration error');
@@ -61,7 +64,7 @@ export default function ContactUs() {
     } catch (error) {
       console.error('Error submitting form:', error);
       setStatus('error');
-      setErrorMessage('Failed to send message. Please try again.');
+      setErrorMessage(t('error'));
     }
   };
 
@@ -71,10 +74,10 @@ export default function ContactUs() {
         <div className="max-w-2xl lg:max-w-5xl mx-auto">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl">
-              Contact us
+              {t('title')}
             </h1>
             <p className="mt-1 text-gray-600">
-              We'd love to talk about how we can help you.
+              {t('subtitle')}
             </p>
           </div>
 
@@ -82,20 +85,20 @@ export default function ContactUs() {
             <div className="w-full max-w-2xl">
               <div className="flex flex-col border border-gray-200 rounded-xl p-6 sm:p-8 lg:p-10">
                 <h2 className="mb-8 text-xl font-semibold text-gray-800 text-center">
-                  Fill in the form
+                  {t('formTitle')}
                 </h2>
 
                 <form onSubmit={handleSubmit}>
                   <div className="grid gap-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <label htmlFor="hs-firstname-contacts-1" className="sr-only">First Name</label>
+                        <label htmlFor="hs-firstname-contacts-1" className="sr-only">{t('firstName')}</label>
                         <input
                           type="text"
                           name="firstName"
                           id="hs-firstname-contacts-1"
                           className="py-2.5 sm:py-3 px-4 block w-full border-2 border-gray-300 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none transition-all duration-300"
-                          placeholder="First Name"
+                          placeholder={t('firstName')}
                           value={formData.firstName}
                           onChange={handleChange}
                           required
@@ -104,13 +107,13 @@ export default function ContactUs() {
                       </div>
 
                       <div>
-                        <label htmlFor="hs-lastname-contacts-1" className="sr-only">Last Name</label>
+                        <label htmlFor="hs-lastname-contacts-1" className="sr-only">{t('lastName')}</label>
                         <input
                           type="text"
                           name="lastName"
                           id="hs-lastname-contacts-1"
                           className="py-2.5 sm:py-3 px-4 block w-full border-2 border-gray-300 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none transition-all duration-300"
-                          placeholder="Last Name"
+                          placeholder={t('lastName')}
                           value={formData.lastName}
                           onChange={handleChange}
                           disabled={status === 'loading'}
@@ -119,14 +122,14 @@ export default function ContactUs() {
                     </div>
 
                     <div>
-                      <label htmlFor="hs-email-contacts-1" className="sr-only">Email</label>
+                      <label htmlFor="hs-email-contacts-1" className="sr-only">{t('email')}</label>
                       <input
                         type="email"
                         name="email"
                         id="hs-email-contacts-1"
                         autoComplete="email"
                         className="py-2.5 sm:py-3 px-4 block w-full border-2 border-gray-300 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none transition-all duration-300"
-                        placeholder="Email"
+                        placeholder={t('email')}
                         value={formData.email}
                         onChange={handleChange}
                         required
@@ -135,13 +138,13 @@ export default function ContactUs() {
                     </div>
 
                     <div>
-                      <label htmlFor="hs-about-contacts-1" className="sr-only">Details</label>
+                      <label htmlFor="hs-about-contacts-1" className="sr-only">{t('message')}</label>
                       <textarea
                         id="hs-about-contacts-1"
                         name="message"
                         rows={4}
                         className="py-2.5 sm:py-3 px-4 block w-full border-2 border-gray-300 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none transition-all duration-300"
-                        placeholder="Tell us about your ATM maintenance needs..."
+                        placeholder={t('messagePlaceholder')}
                         value={formData.message}
                         onChange={handleChange}
                         required
@@ -157,7 +160,7 @@ export default function ContactUs() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <p className="text-sm text-green-800 font-medium">
-                          Thank you for your inquiry. We will get back to you soon!
+                          {t('success')}
                         </p>
                       </div>
                     </div>
@@ -188,10 +191,10 @@ export default function ContactUs() {
                             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                           </svg>
-                          Sending...
+                          {t('sending')}
                         </>
                       ) : (
-                        'Send'
+                        t('send')
                       )}
                     </button>
                   </div>

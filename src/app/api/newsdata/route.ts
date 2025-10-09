@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
     const nextPage = searchParams.get('nextPage') || '';
     
     // API Token dari environment variable
-    const API_TOKEN = process.env.NEXT_PUBLIC_NEWSDATA_API_KEY || 'pub_c8db93d75d5147c2b2f098d857aa0995';
+    const API_TOKEN = process.env.NEXT_PUBLIC_NEWSDATA_API_KEY || 'pub_f2c9500f95704113b1436b82287ee4f0';
     const API_ENDPOINT = 'https://newsdata.io/api/1/latest';
     
     const params = new URLSearchParams({

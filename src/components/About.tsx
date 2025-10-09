@@ -1,15 +1,23 @@
 'use client';
 import Image from 'next/image';
-import CountUp from './ui/CountUp'
+import CountUp from './ui/CountUp';
+import { useTranslation } from 'react-i18next';
+import dynamic from 'next/dynamic';
+
+const NoSSR = dynamic(() => import('./NoSSR'), { ssr: false });
 
 export default function About() {
+    const { t } = useTranslation('about');
+
     return (
         <section id="about" className="bg-white">
             <div className="content-section py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-10">
                 <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-12">
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                            About Us
+                            <NoSSR fallback={<div className="h-12"></div>}>
+                                {t('title')}
+                            </NoSSR>
                         </h1>
                         <div className="w-24 h-1 bg-brand-600 mx-auto rounded"></div>
                     </div>
@@ -26,88 +34,92 @@ export default function About() {
 
                         {/* Content Section */}
                         <div className="space-y-6">
-                            <h2 className="text-lg md:text-lg lg:text-3xl font-bold text-gray-900 leading-tight">
-                                Trusted Nationwide Partner for ATM Maintenance & Services
-                            </h2>
+                            <NoSSR fallback={<div>Loading...</div>}>
+                                <h2 className="text-lg md:text-lg lg:text-3xl font-bold text-gray-900 leading-tight">
+                                    {t('subtitle')}
+                                </h2>
 
-                            <div className="space-y-4">
-                                <p className="text-body text-justify leading-relaxed">
-                                    PT. Kevin Guna Pratama (KGP) is a national company specializing in ATM Maintenance & Services, delivering repair, maintenance, and performance upgrades with industry-leading standards.
-                                </p>
+                                <div className="space-y-4">
+                                    <p className="text-body text-justify leading-relaxed">
+                                        {t('description1')}
+                                    </p>
 
-                                <p className="text-body text-justify leading-relaxed">
-                                    Since its establishment in 2014, KGP has grown from a regional provider into a trusted nationwide partner for major banks and vendors. Guided by the philosophy of &quot;fix-first, replace-last,&quot; we provide cost-efficient, fast, and reliable solutions.
-                                </p>
+                                    <p className="text-body text-justify leading-relaxed">
+                                        {t('description2')}
+                                    </p>
 
-                                <p className="text-body text-justify leading-relaxed">
-                                    With over 5,000 ATMs serviced across Indonesia, our certified technicians ensure seamless banking operations for clients in major cities nationwide.
-                                </p>
-                            </div>
+                                    <p className="text-body text-justify leading-relaxed">
+                                        {t('description3')}
+                                    </p>
+                                </div>
+                            </NoSSR>
 
                             {/* Stats Section */}
-                            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-6">
-                                <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                    <div className="text-lg md:text-lg font-bold text-brand-600">
-                                         <CountUp
-                                            from={0}
-                                            to={2014}
-                                            separator=","
-                                            direction="up"
-                                            duration={1}
-                                            className="count-up-text"
-                                        />
-                                        </div>
-                                    <div className="text-sm text-gray-600">Founded</div>
-                                </div>
-                                <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                    <div className="text-2xl font-bold text-brand-600">
-                                        <CountUp
-                                            from={0}
-                                            to={5000}
-                                            separator=","
-                                            direction="up"
-                                            duration={1}
-                                            className="count-up-text"
-                                        />+
+                            <NoSSR fallback={<div>Loading stats...</div>}>
+                                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-6">
+                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
+                                        <div className="text-lg md:text-lg font-bold text-brand-600">
+                                             <CountUp
+                                                from={0}
+                                                to={2018}
+                                                separator=","
+                                                direction="up"
+                                                duration={1}
+                                                className="count-up-text"
+                                            />
+                                            </div>
+                                        <div className="text-sm text-gray-600">{t('stats.founded')}</div>
                                     </div>
-                                    <div className="text-sm text-gray-600">ATMs Serviced</div>
-                                </div>
-                                <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                    <div className="text-2xl font-bold text-brand-600">
-                                         <CountUp
-                                            from={0}
-                                            to={24}
-                                            separator=","
-                                            direction="up"
-                                            duration={1}
-                                            className="count-up-text"
-                                        />
-                                        /
-                                         <CountUp
-                                            from={0}
-                                            to={7}
-                                            separator=","
-                                            direction="up"
-                                            duration={1}
-                                            className="count-up-text"
-                                        />
+                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
+                                        <div className="text-2xl font-bold text-brand-600">
+                                            <CountUp
+                                                from={0}
+                                                to={5000}
+                                                separator=","
+                                                direction="up"
+                                                duration={1}
+                                                className="count-up-text"
+                                            />+
                                         </div>
-                                    <div className="text-sm text-gray-600">Support</div>
+                                        <div className="text-sm text-gray-600">{t('stats.atmsServiced')}</div>
+                                    </div>
+                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
+                                        <div className="text-2xl font-bold text-brand-600">
+                                             <CountUp
+                                                from={0}
+                                                to={24}
+                                                separator=","
+                                                direction="up"
+                                                duration={1}
+                                                className="count-up-text"
+                                            />
+                                            /
+                                             <CountUp
+                                                from={0}
+                                                to={7}
+                                                separator=","
+                                                direction="up"
+                                                duration={1}
+                                                className="count-up-text"
+                                            />
+                                            </div>
+                                        <div className="text-sm text-gray-600">{t('stats.support')}</div>
+                                    </div>
+                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
+                                        <div className="text-2xl font-bold text-brand-600">
+                                            <CountUp
+                                                from={0}
+                                                to={100}
+                                                separator=","
+                                                direction="up"
+                                                duration={1}
+                                                className="count-up-text"
+                                            />
+                                            +</div>
+                                        <div className="text-sm text-gray-600">{t('stats.cities')}</div>
+                                    </div>
                                 </div>
-                                <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                    <div className="text-2xl font-bold text-brand-600">
-                                        <CountUp
-                                            from={0}
-                                            to={100}
-                                            separator=","
-                                            direction="up"
-                                            duration={1}
-                                            className="count-up-text"
-                                        />
-                                        +</div>
-                                    <div className="text-sm text-gray-600">Cities</div>
-                                </div>
-                            </div>
+                            </NoSSR>
                         </div>
                     </div>
                 </div>

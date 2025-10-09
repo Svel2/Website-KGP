@@ -1,10 +1,11 @@
-
 import "./globals.css";
 import _ from "lodash";
+import { useEffect } from "react";
 import Header from "../components/layout/Header";
 import PrelineScriptWrapper from "../components/PrelineScriptWrapper";
 import Footer from "../components/layout/footer";
 import ErrorBoundary from "../components/ui/ErrorBoundary";
+import I18nProvider from "../components/I18nProvider";
 
 // Make lodash available globally
 if (typeof window !== "undefined") {
@@ -25,9 +26,11 @@ export default function RootLayout({
       <body suppressHydrationWarning={true}>
         <main className="pt-0">
           <ErrorBoundary>
-            <Header />
-            {children}
-            <Footer />
+            <I18nProvider>
+              <Header />
+              {children}
+              <Footer />
+            </I18nProvider>
           </ErrorBoundary>
         </main>
         <PrelineScriptWrapper />

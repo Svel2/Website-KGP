@@ -1,0 +1,26 @@
+{
+  "language": {
+    "switchTo": "Ganti ke",
+    "current": "Bahasa Saat Ini"
+  },
+  "buttons": {
+    "readMore": "Baca Selengkapnya",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "contactUs": "Hubungi Kami",
+    "viewServices": "Lihat Layanan",
+    "submit": "Kirim",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "retry": "Coba Lagi"
+  },
+  "loading": "Memuat...",
+  "error": {
+    "generic": "Terjadi kesalahan. Silakan coba lagi.",
+    "network": "Koneksi internet bermasalah.",
+    "notFound": "Halaman tidak ditemukan."
+  },
+  "news": {
+    "heading": "Berita — ATM & Keuangan",
+    "description": "Update terbaru dari industri perbankan dan ATM Indonesia"
+  }
+}

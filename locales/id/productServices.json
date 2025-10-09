@@ -1,0 +1,63 @@
+{
+  "title": "Produk & Layanan",
+  "subtitle": "Solusi lengkap untuk kebutuhan infrastruktur dan layanan perbankan Anda",
+  "services": {
+    "mechanicalElectrical": {
+      "name": "Mekanikal Elektrikal",
+      "description": "Kami menyediakan desain, instalasi, dan pemeliharaan sistem M&E untuk memastikan operasional bangunan yang andal dan jangka panjang."
+    },
+    "logisticWarehouse": {
+      "name": "Logistik & Gudang",
+      "description": "Logistik end-to-end: manajemen inventaris, distribusi, dan fulfillment untuk mengoptimalkan rantai pasokan Anda."
+    },
+    "upsRework": {
+      "name": "Perbaikan UPS",
+      "description": "Perbaikan UPS untuk mengembalikkan performa, memperpanjang masa pakai, dan menjaga sistem tetap stabil selama pemadaman listrik atau fluktuasi."
+    },
+    "customerSupportEngineer": {
+      "name": "Teknisi Dukungan Pelanggan",
+      "description": "Tim kami memberikan dukungan ATM/IT di lokasi & remote, memastikan uptime, pemeliharaan preventif, dan resolusi masalah yang cepat."
+    },
+    "callCenter": {
+      "name": "Pusat Panggilan",
+      "description": "Call center 24/7 untuk respons cepat, ticketing, dan eskalasi masalah untuk menjaga operasi berjalan lancar."
+    },
+    "monitoring": {
+      "name": "Pemantauan",
+      "description": "Pemantauan real-time sistem ATM & IT untuk deteksi dini masalah, koordinasi cepat, dan pemulihan yang andal."
+    },
+    "ductingSystem": {
+      "name": "Sistem Ducting",
+      "description": "Pasok & instalasi sistem AC sentral untuk gedung besar untuk memastikan distribusi udara pendingin yang optimal."
+    },
+    "workshopMaintenanceLCD": {
+      "name": "Perawatan LCD Bengkel",
+      "description": "Perbaikan dan refurbish layar LCD ATM untuk keandalan yang lebih baik dan masa pakai yang lebih lama."
+    },
+    "cassetteRework": {
+      "name": "Perbaikan Cassette",
+      "description": "Rework profesional cassette uang tunai ATM untuk mengembalikan fungsi, memperpanjang penggunaan, dan mengurangi biaya penggantian."
+    },
+    "atmModuleRework": {
+      "name": "Perbaikan Modul ATM",
+      "description": "Perbaikan cepat dan berkualitas tinggi untuk menjaga modul ATM andal dan memperpanjang masa pakainya."
+    },
+    "plumbing": {
+      "name": "Plumbing",
+      "description": "Desain dan instalasi sistem perpipaan yang efisien dan tahan lama untuk infrastruktur bangunan modern sejak 2020."
+    }
+  },
+  "categories": {
+    "infrastructure": "Infrastruktur",
+    "logistics": "Logistik",
+    "powerSystem": "Sistem Daya",
+    "technicalSupport": "Dukungan Teknis",
+    "customerService": "Layanan Pelanggan",
+    "systemMonitoring": "Pemantauan Sistem",
+    "coolingSystem": "Sistem Pendingin",
+    "displayMaintenance": "Perawatan Display",
+    "cassetteRepair": "Perbaikan Cassette",
+    "atmRepair": "Perbaikan ATM",
+    "plumbingSystem": "Sistem Perpipaan"
+  }
+}

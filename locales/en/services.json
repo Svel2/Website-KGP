@@ -1,0 +1,226 @@
+{
+  "mechanicalElectrical": "Mechanical Electrical",
+  "mechanicalElectricalDescription": "Mechanical & Electrical (M&E) systems are essential components of modern infrastructure. We provide comprehensive design, installation, and maintenance services to support reliable building operations and long-term efficiency.",
+  "logisticWarehouse": "Logistic & Warehouse",
+  "logisticWarehouseDescription": "Our Logistic & Warehouse services provide comprehensive supply chain solutions with efficient inventory management, storage facilities, and distribution systems to support seamless operations.",
+  "upsRework": "UPS Rework",
+  "upsReworkDescription": "Our UPS Rework services ensure reliable power backup systems through expert repair, testing, and maintenance of UPS components to guarantee uninterrupted power supply.",
+  "customerSupportEngineer": "Customer Support Engineer",
+  "customerSupportEngineerDescription": "Our Customer Support Engineers provide technical expertise and on-site support to ensure optimal performance of all systems and equipment.",
+  "callCenter": "Call Center",
+  "callCenterDescription": "Our Call Center services provide 24/7 customer support with high professionalism, ensuring all ATM inquiries and issues are handled quickly and efficiently.",
+  "monitoring": "Monitoring",
+  "monitoringDescription": "Our real-time Monitoring system provides full visibility into ATM status, enabling early detection of issues and optimization of the national ATM network performance.",
+  "ductingSystem": "Ducting System",
+  "ductingSystemDescription": "Our Ducting System services provide comprehensive design, installation, and maintenance of HVAC ducting systems for optimal air distribution and comfort.",
+  "workshopMaintenanceLCD": "Workshop Maintenance LCD",
+  "workshopMaintenanceLCDDescription": "Our Workshop Maintenance LCD services provide expert repair and maintenance services for LCD displays and components.",
+  "cassetteRework": "Cassette Rework",
+  "cassetteReworkDescription": "Our Cassette Rework services provide expert repair and refurbishment of ATM cassette modules to ensure optimal functionality.",
+  "atmModuleRework": "ATM Module Rework",
+  "atmModuleReworkDescription": "Our ATM Module Rework services ensure reliable performance and extended lifecycle of ATM devices. With advanced repair facilities, strict quality control, and a skilled team, we provide quick and effective rework solutions for critical ATM components.",
+  "plumbing": "Plumbing",
+  "plumbingDescription": "Our Plumbing services provide comprehensive installation, maintenance, and repair of plumbing systems for residential and commercial properties.",
+  "hero": {
+    "mechanicalElectrical": {
+      "title": "Mechanical Electrical",
+      "description": "Mechanical & Electrical (M&E) systems are essential components of modern infrastructure. We provide comprehensive design, installation, and maintenance services to support reliable building operations and long-term efficiency."
+    },
+    "logisticWarehouse": {
+      "title": "Logistic & Warehouse",
+      "description": "Our Logistic & Warehouse services provide comprehensive supply chain solutions with efficient inventory management, storage facilities, and distribution systems to support seamless operations."
+    },
+    "upsRework": {
+      "title": "UPS Rework",
+      "description": "Our UPS Rework services ensure reliable power backup systems through expert repair, testing, and maintenance of UPS components to guarantee uninterrupted power supply."
+    },
+    "customerSupportEngineer": {
+      "title": "Customer Support Engineer",
+      "description": "Our Customer Support Engineers provide technical expertise and on-site support to ensure optimal performance of all systems and equipment."
+    },
+    "callCenter": {
+      "title": "Call Center",
+      "description": "Our Call Center services provide 24/7 customer support with high professionalism, ensuring all ATM inquiries and issues are handled quickly and efficiently."
+    },
+    "atmModuleRework": {
+      "title": "ATM Module Rework",
+      "description": "Our ATM Module Rework services ensure reliable performance and extended lifecycle of ATM devices. With advanced repair facilities, strict quality control, and a skilled team, we provide quick and effective rework solutions for critical ATM components."
+    },
+    "monitoring": {
+      "title": "Monitoring",
+      "description": "Our real-time Monitoring system provides full visibility into ATM status, enabling early detection of issues and optimization of the national ATM network performance."
+    },
+    "ductingSystem": {
+      "title": "Ducting System",
+      "description": "Our Ducting System services provide comprehensive design, installation, and maintenance of HVAC ducting systems for optimal air distribution and comfort."
+    },
+    "workshopMaintenanceLCD": {
+      "title": "Workshop Maintenance LCD",
+      "description": "Our Workshop Maintenance LCD services provide expert repair and maintenance services for LCD displays and components."
+    },
+    "cassetteRework": {
+      "title": "Cassette Rework",
+      "description": "Our Cassette Rework services provide expert repair and refurbishment of ATM cassette modules to ensure optimal functionality."
+    },
+    "plumbing": {
+      "title": "Plumbing",
+      "description": "Our Plumbing services provide comprehensive installation, maintenance, and repair of plumbing systems for residential and commercial properties."
+    }
+  },
+  "ourService": {
+    "title": "Our Services",
+    "description": "Our Expertise",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "projects": {
+      "mechanicalElectrical": {
+        "hvacSystems": {
+          "title": "HVAC Systems",
+          "description": "Design and installation of Heating, Ventilation, and Air Conditioning systems for optimal comfort, energy efficiency, and environmental compliance."
+        },
+        "electricalSystems": {
+          "title": "Electrical Systems",
+          "description": "Reliable power distribution, lighting, and backup systems installation to ensure safety and operational continuity for all facilities."
+        },
+        "plumbingIntegration": {
+          "title": "Plumbing Integration",
+          "description": "Supporting plumbing works within M&E projects to provide complete infrastructure solutions in line with project specifications."
+        }
+      },
+      "logisticWarehouse": {
+        "secureStorage": {
+          "title": "Secure Storage",
+          "description": "Providing safe and organized storage facilities for ATM spare parts, IT equipment, and sensitive materials with full monitoring."
+        },
+        "distribution": {
+          "title": "Distribution",
+          "description": "Efficient transportation and delivery services ensuring equipment reaches branch locations on time and in perfect condition."
+        },
+        "inventoryManagement": {
+          "title": "Inventory Management",
+          "description": "Real-time tracking and reporting system to maintain accurate stock levels and ensure smooth supply chain operations."
+        }
+      },
+      "upsRework": {
+        "diagnosticsRepair": {
+          "title": "Diagnostics & Repair",
+          "description": "Comprehensive diagnostics and repair services for UPS systems to restore optimal functionality and extend equipment lifespan."
+        },
+        "testingCalibration": {
+          "title": "Testing & Calibration",
+          "description": "Thorough testing and calibration procedures to ensure UPS systems meet performance standards and specifications."
+        },
+        "preventiveMaintenance": {
+          "title": "Preventive Maintenance",
+          "description": "Regular maintenance programs to prevent UPS failures and ensure reliable backup power when needed most."
+        }
+      },
+      "customerSupportEngineer": {
+        "technicalSupport": {
+          "title": "Technical Support",
+          "description": "On-site and remote technical assistance for troubleshooting and resolving complex equipment issues."
+        },
+        "maintenanceServices": {
+          "title": "Maintenance Services",
+          "description": "Scheduled maintenance and optimization services to ensure peak performance of all systems and equipment."
+        },
+        "trainingConsultation": {
+          "title": "Training & Consultation",
+          "description": "Expert training and consultation services to enhance operational knowledge and best practices."
+        }
+      },
+      "callCenter": {
+        "supportServices": {
+          "title": "24/7 Support Services",
+          "description": "Round-the-clock customer support with professional agents to handle all inquiries and technical issues."
+        },
+        "incidentManagement": {
+          "title": "Incident Management",
+          "description": "Efficient incident reporting, tracking, and resolution to minimize downtime and service disruptions."
+        },
+        "customerAssistance": {
+          "title": "Customer Assistance",
+          "description": "Comprehensive customer assistance programs including technical guidance and service coordination."
+        }
+      },
+      "monitoring": {
+        "realTimeMonitoring": {
+          "title": "Real-time Monitoring",
+          "description": "Advanced monitoring systems providing live visibility into ATM network status and performance metrics."
+        },
+        "alertManagement": {
+          "title": "Alert Management",
+          "description": "Intelligent alert systems for early detection of issues and rapid response to prevent service disruptions."
+        },
+        "performanceAnalytics": {
+          "title": "Performance Analytics",
+          "description": "Comprehensive analytics and reporting to optimize network performance and identify improvement opportunities."
+        }
+      },
+      "ductingSystem": {
+        "hvacDucting": {
+          "title": "HVAC Ducting",
+          "description": "Professional design and installation of HVAC ducting systems for optimal air distribution and comfort."
+        },
+        "ductMaintenance": {
+          "title": "Duct Maintenance",
+          "description": "Regular cleaning and maintenance services to ensure air quality and system efficiency."
+        },
+        "systemOptimization": {
+          "title": "System Optimization",
+          "description": "Performance optimization services to enhance ducting system efficiency and reduce energy costs."
+        }
+      },
+      "workshopMaintenanceLCD": {
+        "lcdRepair": {
+          "title": "LCD Repair",
+          "description": "Expert repair services for damaged or malfunctioning LCD displays and components."
+        },
+        "screenRefurbishment": {
+          "title": "Screen Refurbishment",
+          "description": "Professional refurbishment services to restore LCD screens to like-new condition."
+        },
+        "qualityTesting": {
+          "title": "Quality Testing",
+          "description": "Rigorous testing procedures to ensure repaired LCDs meet quality and performance standards."
+        }
+      },
+      "cassetteRework": {
+        "cassetteRepair": {
+          "title": "Cassette Repair",
+          "description": "Professional repair services for ATM cash cassettes to restore full functionality."
+        },
+        "componentReplacement": {
+          "title": "Component Replacement",
+          "description": "Replacement of worn or damaged cassette components with genuine parts for reliability."
+        },
+        "functionalTesting": {
+          "title": "Functional Testing",
+          "description": "Comprehensive testing to ensure repaired cassettes operate correctly and safely."
+        }
+      },
+      "moduleRepair": {
+        "title": "Module Repair",
+        "description": "Comprehensive repair of ATM modules with advanced diagnostics and standardized quality processes to restore functionality."
+      },
+      "qualityControl": {
+        "title": "Quality Control & Testing",
+        "description": "Rigorous testing procedures to ensure every reworked module meets operational standards, reliability, and compliance."
+      },
+      "plumbing": {
+        "systemInstallation": {
+          "title": "System Installation",
+          "description": "Professional installation of complete plumbing systems for residential and commercial properties."
+        },
+        "maintenanceRepair": {
+          "title": "Maintenance & Repair",
+          "description": "Comprehensive maintenance and repair services to keep plumbing systems running efficiently."
+        },
+        "inspectionServices": {
+          "title": "Inspection Services",
+          "description": "Thorough inspection services to identify potential issues and ensure code compliance."
+        }
+      }
+    }
+  }
+}

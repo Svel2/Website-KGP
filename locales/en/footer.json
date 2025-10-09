@@ -1,0 +1,38 @@
+{
+  "companyInfo": {
+    "tagline": "Professional ATM Services",
+    "description": "Trusted partner for comprehensive ATM maintenance and technical solutions across Indonesia."
+  },
+  "quickLinks": {
+    "title": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "servicePoints": "Service Points",
+    "news": "News"
+  },
+  "services": {
+    "title": "Product & Services",
+    "mechanicalElectrical": "Mechanical Electrical",
+    "logisticWarehouse": "Logistic & Warehouse",
+    "upsRework": "UPS Rework",
+    "customerSupportEngineer": "Customer Support Engineer",
+    "callCenter": "Call Center",
+    "monitoring": "Monitoring",
+    "ductingSystem": "Ducting System",
+    "workshopMaintenanceLCD": "Workshop Maintenance LCD",
+    "cassetteRework": "Cassette Rework",
+    "atmModuleRework": "ATM Module Rework",
+    "plumbing": "Plumbing"
+  },
+  "contact": {
+    "title": "Contact Info",
+    "email": "Email",
+    "address": "Address"
+  },
+  "bottomSection": {
+    "copyright": "© 2025 PT. Kevin Guna Pratama. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "sitemap": "Sitemap"
+  }
+}

@@ -79,5 +79,6 @@ module.exports = {
   },
   plugins: [
     import('preline/plugin'),
+    require('@tailwindcss/line-clamp'),
   ],
 }

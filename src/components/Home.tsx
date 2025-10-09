@@ -19,48 +19,116 @@ export default function HomeSlider() {
                 }' className="relative">
                 <div className="hs-carousel relative overflow-hidden w-full bg-white">
                     <div className="hs-carousel-body flex flex-nowrap overflow-hidden transition-[height,transform] duration-700 opacity-0">
-                        <div className="hs-carousel-slide h-full lg:h-full">
-                            <picture className='flex justify-center h-full'>
-                                <source media="(max-width: 640px)" srcSet="/images/mobile3.png" />
-                                <source media="(max-width: 1024px)" srcSet="/images/tablet0.png" />
-
-                                <img
-
-                                    src="/images/Banna0.png"
-                                    alt="Design desktop"
-                                    width="1920"
-                                    height="1080"
-                                />
-                            </picture>
+                        <div className="hs-carousel-slide h-full lg:h-full relative">
+                            <div className="flex justify-center h-full">
+                                {/* Mobile */}
+                                <div className="md:hidden relative w-full h-[400px]">
+                                    <Image
+                                        src="/images/mobile3.png"
+                                        alt="Design mobile"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                                {/* Tablet */}
+                                <div className="hidden md:flex lg:hidden relative w-full h-[500px]">
+                                    <Image
+                                        src="/images/tablet0.png"
+                                        alt="Design tablet"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                                {/* Desktop */}
+                                <div className="hidden lg:flex relative w-full h-[600px]">
+                                    <Image
+                                        src="/images/Banna0.png"
+                                        alt="Design desktop"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div className="hs-carousel-slide h-full">
-                            <picture className='flex justify-center h-full'>
-                                <source media="(max-width: 640px)" srcSet="/images/mobile2.png" />
-                                <source media="(max-width: 1024px)" srcSet="/images/tablet00.png" />
-
-                                <img
-
-                                    src="/images/Banna00.png"
-                                    alt="Design desktop"
-                                    width="1920"
-                                    height="1080"
-                                />
-                            </picture>
+                        <div className="hs-carousel-slide h-full relative">
+                            <div className="flex justify-center h-full">
+                                {/* Mobile */}
+                                <div className="md:hidden relative w-full h-[400px]">
+                                    <Image
+                                        src="/images/mobile2.png"
+                                        alt="Design mobile"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                                {/* Tablet */}
+                                <div className="hidden md:flex lg:hidden relative w-full h-[500px]">
+                                    <Image
+                                        src="/images/tablet00.png"
+                                        alt="Design tablet"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                                {/* Desktop */}
+                                <div className="hidden lg:flex relative w-full h-[600px]">
+                                    <Image
+                                        src="/images/Banna00.png"
+                                        alt="Design desktop"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div className="hs-carousel-slide h-full lg:h-full">
-                            <picture className='flex justify-center h-full'>
-                                <source media="(max-width: 640px)" srcSet="/images/mobile4.png" />
-                                <source media="(max-width: 1024px)" srcSet="/images/tablet000.png" />
-
-                                <img
-
-                                    src="/images/Banna000.png"
-                                    alt="Design desktop"
-                                    width="1920"
-                                    height="1080"
-
-                                />
-                            </picture>
+                        <div className="hs-carousel-slide h-full lg:h-full relative">
+                            <div className="flex justify-center h-full">
+                                {/* Mobile */}
+                                <div className="md:hidden relative w-full h-[400px]">
+                                    <Image
+                                        src="/images/mobile4.png"
+                                        alt="Design mobile"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                                {/* Tablet */}
+                                <div className="hidden md:flex lg:hidden relative w-full h-[500px]">
+                                    <Image
+                                        src="/images/tablet000.png"
+                                        alt="Design tablet"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                                {/* Desktop */}
+                                <div className="hidden lg:flex relative w-full h-[600px]">
+                                    <Image
+                                        src="/images/Banna000.png"
+                                        alt="Design desktop"
+                                        fill
+                                        className="object-cover"
+                                        sizes="100vw"
+                                        priority
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

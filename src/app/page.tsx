@@ -12,18 +12,21 @@ import ContactUs from "../components/ContactUs";
 import NewsATMFinance from "../components/NewsATMFinance";
 import ErrorBoundary from "../components/ErrorBoundary";
 import Head from 'next/head';
+import { useTranslation } from 'react-i18next';
 
 export default function Page() {
+  const { t } = useTranslation('homepage');
+
   return (
     <>
       <Head>
-        <title>PT. Kevin Guna Pratama - ATM Maintenance & Services Nationwide</title>
-        <meta name="description" content="Trusted nationwide partner for ATM maintenance & services. Delivering repair, maintenance, and performance upgrades with industry-leading standards since 2014." />
-        <meta name="keywords" content="ATM maintenance, ATM services, perbankan, mesin ATM, Kevin Guna Pratama, KGP, ATM repair, banking services" />
-        
+        <title>{t('hero.title')}</title>
+        <meta name="description" content={t('hero.description')} />
+        <meta name="keywords" content={t('hero.keywords')} />
+
         {/* Open Graph */}
-        <meta property="og:title" content="PT. Kevin Guna Pratama - ATM Maintenance & Services" />
-        <meta property="og:description" content="Trusted nationwide partner for ATM maintenance & services with over 5,000 ATMs serviced across Indonesia." />
+        <meta property="og:title" content={t('hero.title')} />
+        <meta property="og:description" content={t('hero.description')} />
         <meta property="og:image" content="/images/bannerGCS.jpg" />
         <meta property="og:type" content="website" />
         
