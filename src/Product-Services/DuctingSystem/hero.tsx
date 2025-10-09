@@ -1,22 +1,35 @@
 'use client'
+import { useTranslation } from 'react-i18next';
+import Image from 'next/image';
 
-export default function HeroLogistic(){
+export default function HeroDuctingSystem(){
+    const { t } = useTranslation('services');
+
     return(
-        <section id="heroMecha">
-            <div className="bg-cover bg-center" style={{ backgroundImage: 'url(/images/ducting-system-bg.jpg)' }}>
-                <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-black/10 backdrop-brightness-50">
+        <section id="heroMecha" className="relative">
+            <div className="absolute inset-0">
+                <Image
+                    src="/images/ducting-system-bg.jpg"
+                    alt="Ducting System Background"
+                    fill
+                    className="object-cover"
+                    priority
+                    quality={85}
+                    sizes="100vw"
+                />
+            </div>
+            <div className="relative max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-black/10 backdrop-brightness-50">
                     {/* Title */}
                     <div className="max-w-3xl text-center mx-auto">
                         <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        AC Ducting System
+                            {t('hero.ductingSystem.title')}
                         </h1>
                     </div>
                     {/* End Title */}
 
                     <div className="max-w-3xl text-center mx-auto">
-                        <p className="text-lg text-white/70">Air conditioning (AC) is a key component of building facilities. Large, multi-story buildings in particular require central AC systems with extensive cool air distribution networks. We provide proven experience in the procurement and installation of these AC air ducting systems.    </p>
+                        <p className="text-lg text-white/70">{t('hero.ductingSystem.description')}</p>
                     </div>
-                </div>
             </div>
         </section>
     )

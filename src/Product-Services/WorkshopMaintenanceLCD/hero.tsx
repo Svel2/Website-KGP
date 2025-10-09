@@ -1,23 +1,37 @@
 'use client'
+import { useTranslation } from 'react-i18next';
+import Image from 'next/image';
 
-export default function HeroLogistic(){
+export default function HeroWorkshopMaintenanceLCD(){
+    const { t } = useTranslation('services');
+
     return(
-        <section id="heroMecha">
-            <div className="bg-cover bg-center" style={{ backgroundImage: 'url(/images/workshop-maintenance-lcd-bg.jpg)' }}>
-                <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-gray-800/30 backdrop-brightness-50">
+        <section id="heroMecha" className="relative">
+            <div className="absolute inset-0">
+                <Image
+                    src="/images/workshop-maintenance-lcd-bg.jpg"
+                    alt="Workshop Maintenance LCD Background"
+                    fill
+                    className="object-cover"
+                    priority
+                    quality={85}
+                    sizes="100vw"
+                />
+            </div>
+            <div className="relative max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-gray-800/30 backdrop-brightness-50">
                     {/* Title */}
                     <div className="max-w-3xl text-center mx-auto">
                         <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        Workshop Maintenance LCD
+                            {t('hero.workshopMaintenanceLCD.title')}
                         </h1>
                     </div>
                     {/* End Title */}
 
                     <div className="max-w-3xl text-center mx-auto">
                         <p className="text-lg text-white/70">
-                        Our specialized workshop provides repair, maintenance, and refurbishment of ATM LCD screens to ensure device reliability, extended lifespan, and reduced replacement costs.</p>
+                            {t('hero.workshopMaintenanceLCD.description')}
+                        </p>
                     </div>
-                </div>
             </div>
         </section>
     )
