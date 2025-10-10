@@ -28,63 +28,7 @@ export default function ServicePoint() {
             </div>
           </div>
 
-            {/* End Map Card */}
-          <div className="mt-12 grid items-center lg:grid-cols-2 gap-6 lg:gap-16 ">
-            <div className=''>
-            <h2 className="text-black font-semibold text-2xl">
-                Nationwide Coverage for Your ATM Needs
-              </h2>
-              <div className="flex gap-x-7 py-6">
-                <p className="mb-8 text-lg text-justify font-light lg:text-xl md:text-2xl sm:text-sm text-gray-500">
-                  PT. Kevin Guna Pratama operates service points strategically located across major cities in Indonesia. Our extensive network ensures rapid response times and comprehensive coverage for all your ATM maintenance and service requirements.
-                </p>
-              </div>
-            </div>
-
-            {/* Content - Right Side */}
-            <div className="">
-              
-              
-              <div className="space-y-4">
-                <div className="flex items-start gap-x-4">
-                  <div className="flex-shrink-0 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
-                    <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800">15+ Major Cities</h3>
-                    <p className="text-gray-600">Service points in key metropolitan areas</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-x-4">
-                  <div className="flex-shrink-0 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
-                    <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800">24/7 Availability</h3>
-                    <p className="text-gray-600">Round-the-clock service support</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-x-4">
-                  <div className="flex-shrink-0 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
-                    <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800">Rapid Response</h3>
-                    <p className="text-gray-600">Quick deployment to your location</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* End Content */}
-          </div>
+          
         </div>
       </div>
       {/* End Service Points Section */}

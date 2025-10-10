@@ -57,10 +57,9 @@ export default function Page() {
       <HomeSlider />
       <ClientLogos />
       <About />
-      <Why />
-      <What />
       <ServicePoint/>
       <ProductService/>
+      <Why />
       <OurGallery/>
       
       

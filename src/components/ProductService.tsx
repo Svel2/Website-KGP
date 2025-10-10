@@ -5,20 +5,24 @@ import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/navigation';
 
 export default function ProductService() {
-    const { t } = useTranslation('productServices');
+    const { t, i18n } = useTranslation('productServices');
     const router = useRouter();
+
+    const changeLanguage = (lng: string) => {
+        i18n.changeLanguage(lng);
+    };
 
     return (
         <section className='bg-white pt-16 pb-0' id='Product-Service'>
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                {/* Section Header */}
+                {/* Section Header with Language Switcher */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
                         {t('title')}
                     </h2>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
                         {t('subtitle')}
-                    </p>
+                    </p>  
                 </div>
 
                 {/* Moving Cards */}

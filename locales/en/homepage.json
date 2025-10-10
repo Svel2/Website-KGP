@@ -50,6 +50,27 @@
       "description": "We prioritize repair over replacement for cost-effective solutions."
     }
   },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "cards": {
+      "network": {
+        "title": "National Network",
+        "desc": "We are available in major cities across Indonesia to ensure fast and efficient services for all clients."
+      },
+      "team": {
+        "title": "Experienced Team",
+        "desc": "Supported by professionals with extensive experience in maintenance and technical services."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "desc": "We are ready around the clock to ensure all your devices operate optimally."
+      },
+      "philosophy": {
+        "title": "Repair-First Philosophy",
+        "desc": "We prioritize fixing over replacing to deliver efficient and cost-effective solutions."
+      }
+    }
+  },
   "what": {
     "title": "What Do We Aim to Achieve?",
     "subtitle": "What Do We Aim to",
