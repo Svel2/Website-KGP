@@ -154,18 +154,7 @@ const ClientLogos = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {/* Badge */}
-          <motion.div
-            className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-100 via-orange-50 to-orange-100 text-orange-600 rounded-full text-sm font-semibold mb-6 border border-orange-200/50"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
-            </span>
-            Trusted by Industry Leaders
-          </motion.div>
+
 
           {/* Title */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6">
@@ -178,33 +167,7 @@ const ClientLogos = () => {
             </span>
           </h2>
 
-          {/* Description */}
-          <p className="text-slate-600 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Proud to collaborate with innovative companies that trust us to deliver excellence in every project
-          </p>
 
-          {/* Stats */}
-          <motion.div
-            className="flex justify-center items-center gap-12 mt-10"
-            initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : {}}
-            transition={{ delay: 0.5, duration: 0.6 }}
-          >
-            <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900">100+</div>
-              <div className="text-sm text-slate-600">Projects Delivered</div>
-            </div>
-            <div className="h-12 w-px bg-gradient-to-b from-transparent via-slate-300 to-transparent"></div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900">15+</div>
-              <div className="text-sm text-slate-600">Years Experience</div>
-            </div>
-            <div className="h-12 w-px bg-gradient-to-b from-transparent via-slate-300 to-transparent"></div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900">98%</div>
-              <div className="text-sm text-slate-600">Client Satisfaction</div>
-            </div>
-          </motion.div>
         </motion.div>
 
         {/* Client Logos Grid */}
@@ -300,55 +263,12 @@ const ClientLogos = () => {
               </div>
 
               {/* Company Name */}
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                whileHover={{ opacity: 1, y: 0 }}
-                className="absolute -bottom-8 left-0 right-0 text-center opacity-0 group-hover:opacity-100 transition-all duration-300"
-              >
-                <span
-                  className="inline-block px-4 py-2 bg-white rounded-full text-sm font-medium shadow-lg"
-                  style={{ color: logo.color }}
-                >
-                  {logo.name}
-                </span>
-              </motion.div>
             </motion.div>
           ))}
         </motion.div>
 
         {/* Bottom Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 1, duration: 0.6 }}
-          className="mt-24 text-center"
-        >
-          <div className="inline-flex items-center gap-4 text-slate-400">
-            <div className="h-px w-24 bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
-            <span className="text-sm font-medium uppercase tracking-wider">Join Our Success Stories</span>
-            <div className="h-px w-24 bg-gradient-to-l from-transparent via-slate-300 to-transparent"></div>
-          </div>
 
-          <motion.p
-            className="mt-6 text-slate-600 max-w-2xl mx-auto"
-            initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : {}}
-            transition={{ delay: 1.2, duration: 0.6 }}
-          >
-            Ready to be part of our growing list of satisfied clients? Let's create something amazing together.
-          </motion.p>
-
-          <motion.button
-            className="mt-8 px-8 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : {}}
-            transition={{ delay: 1.4, duration: 0.6 }}
-          >
-            Become a Partner
-          </motion.button>
-        </motion.div>
       </div>
 
       {/* CSS for custom animations */}

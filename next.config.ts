@@ -29,6 +29,7 @@ const nextConfig: NextConfig = {
     // Sesuaikan dengan desain kamu (Tailwind breakpoints umum)
     deviceSizes: [360, 640, 768, 1024, 1280, 1536], // buang 1920/2048/3840 kalau jarang perlu
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 60,
   },
 
   compress: true,

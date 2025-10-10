@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function HomeSlider() {
     return (
-        <section className="bg-white pt-16" id="Home">
+        <section className="bg-white pt-16 lg:pt-0" id="Home">
             {/* Slider */}
             {/* Slider */}
             <div data-hs-carousel='{
@@ -19,7 +19,7 @@ export default function HomeSlider() {
                 }' className="relative">
                 <div className="hs-carousel relative overflow-hidden w-full bg-white">
                     <div className="hs-carousel-body flex flex-nowrap overflow-hidden transition-[height,transform] duration-700 opacity-0">
-                        <div className="hs-carousel-slide h-full lg:h-full relative">
+                        <div className="hs-carousel-slide relative h-[400px] md:h-[500px] lg:h-screen">
                             <div className="flex justify-center h-full">
                                 {/* Mobile */}
                                 <div className="md:hidden relative w-full h-[400px]">
@@ -44,7 +44,7 @@ export default function HomeSlider() {
                                     />
                                 </div>
                                 {/* Desktop */}
-                                <div className="hidden lg:flex relative w-full h-[600px]">
+                                <div className="hidden lg:flex relative w-full h-full">
                                     <Image
                                         src="/images/Banna0.png"
                                         alt="Design desktop"
@@ -56,7 +56,7 @@ export default function HomeSlider() {
                                 </div>
                             </div>
                         </div>
-                        <div className="hs-carousel-slide h-full relative">
+                        <div className="hs-carousel-slide relative h-[400px] md:h-[500px] lg:h-screen">
                             <div className="flex justify-center h-full">
                                 {/* Mobile */}
                                 <div className="md:hidden relative w-full h-[400px]">
@@ -81,7 +81,7 @@ export default function HomeSlider() {
                                     />
                                 </div>
                                 {/* Desktop */}
-                                <div className="hidden lg:flex relative w-full h-[600px]">
+                                <div className="hidden lg:flex relative w-full h-full">
                                     <Image
                                         src="/images/Banna00.png"
                                         alt="Design desktop"
@@ -93,7 +93,7 @@ export default function HomeSlider() {
                                 </div>
                             </div>
                         </div>
-                        <div className="hs-carousel-slide h-full lg:h-full relative">
+                        <div className="hs-carousel-slide relative h-[400px] md:h-[500px] lg:h-screen">
                             <div className="flex justify-center h-full">
                                 {/* Mobile */}
                                 <div className="md:hidden relative w-full h-[400px]">
@@ -118,7 +118,7 @@ export default function HomeSlider() {
                                     />
                                 </div>
                                 {/* Desktop */}
-                                <div className="hidden lg:flex relative w-full h-[600px]">
+                                <div className="hidden lg:flex relative w-full h-full">
                                     <Image
                                         src="/images/Banna000.png"
                                         alt="Design desktop"

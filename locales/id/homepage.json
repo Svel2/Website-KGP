@@ -50,6 +50,27 @@
       "description": "Kami memprioritaskan perbaikan daripada penggantian untuk solusi hemat biaya."
     }
   },
+  "whyChooseUs": {
+    "title": "Mengapa Memilih Kami",
+    "cards": {
+      "network": {
+        "title": "Jaringan Nasional",
+        "desc": "Kami hadir di berbagai kota besar di Indonesia untuk memastikan layanan yang cepat dan efisien."
+      },
+      "team": {
+        "title": "Tim Berpengalaman",
+        "desc": "Didukung oleh tenaga profesional dengan pengalaman luas di bidang maintenance dan layanan teknis."
+      },
+      "support": {
+        "title": "Respons 24/7",
+        "desc": "Kami siap melayani kapan pun untuk memastikan perangkat Anda beroperasi optimal."
+      },
+      "philosophy": {
+        "title": "Filosofi Perbaikan Dulu",
+        "desc": "Kami mengutamakan perbaikan dibanding penggantian untuk efisiensi dan efektivitas maksimal."
+      }
+    }
+  },
   "what": {
     "title": "Apa yang Kami Capai?",
     "subtitle": "Apa yang Kami Capai?",

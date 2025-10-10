@@ -22,44 +22,27 @@ export default function About() {
                         <div className="w-24 h-1 bg-brand-600 mx-auto rounded"></div>
                     </div>
 
-                    <div className="grid items-center lg:grid-cols-2 gap-8 lg:gap-12">
-                        {/* Image Section */}
-                        <div className="relative overflow-hidden rounded-2xl shadow-lg">
-                            <img
-                                src="https://picsum.photos/800/600?random=office"
-                                alt="Modern Professional Office - Kevin Guna Pratama"
-                                className="w-full h-auto max-h-[400px] md:max-h-[500px] object-cover transform hover:scale-105 transition-transform duration-500 rounded-2xl shadow-lg"
-                            />
-                        </div>
-
+                    <div className="grid items-start lg:grid-cols-2 gap-10 lg:gap-16">
                         {/* Content Section */}
-                        <div className="space-y-6">
+                        <div className="order-2 lg:order-1 space-y-6">
                             <NoSSR fallback={<div>Loading...</div>}>
-                                <h2 className="text-lg md:text-lg lg:text-3xl font-bold text-gray-900 leading-tight">
+                                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
                                     {t('subtitle')}
                                 </h2>
 
                                 <div className="space-y-4">
-                                    <p className="text-body text-justify leading-relaxed">
+                                    <p className="text-body leading-relaxed text-gray-700 justify">
                                         {t('description1')}
-                                    </p>
-
-                                    <p className="text-body text-justify leading-relaxed">
-                                        {t('description2')}
-                                    </p>
-
-                                    <p className="text-body text-justify leading-relaxed">
-                                        {t('description3')}
                                     </p>
                                 </div>
                             </NoSSR>
 
                             {/* Stats Section */}
                             <NoSSR fallback={<div>Loading stats...</div>}>
-                                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-6">
-                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                        <div className="text-lg md:text-lg font-bold text-brand-600">
-                                             <CountUp
+                                <div className="pt-6 flex flex-wrap gap-8 md:gap-12">
+                                    <div className="min-w-[120px]">
+                                        <div className="text-3xl font-semibold text-gray-900">
+                                            <CountUp
                                                 from={0}
                                                 to={2018}
                                                 separator=","
@@ -67,11 +50,13 @@ export default function About() {
                                                 duration={1}
                                                 className="count-up-text"
                                             />
-                                            </div>
-                                        <div className="text-sm text-gray-600">{t('stats.founded')}</div>
+                                        </div>
+                                        <div className="text-sm text-gray-600 mt-2 uppercase tracking-wide">
+                                            {t('stats.founded')}
+                                        </div>
                                     </div>
-                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                        <div className="text-2xl font-bold text-brand-600">
+                                    <div className="min-w-[120px]">
+                                        <div className="text-3xl font-semibold text-gray-900">
                                             <CountUp
                                                 from={0}
                                                 to={5000}
@@ -79,34 +64,15 @@ export default function About() {
                                                 direction="up"
                                                 duration={1}
                                                 className="count-up-text"
-                                            />+
+                                            />
+                                            +
                                         </div>
-                                        <div className="text-sm text-gray-600">{t('stats.atmsServiced')}</div>
+                                        <div className="text-sm text-gray-600 mt-2 uppercase tracking-wide">
+                                            {t('stats.atmsServiced')}
+                                        </div>
                                     </div>
-                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                        <div className="text-2xl font-bold text-brand-600">
-                                             <CountUp
-                                                from={0}
-                                                to={24}
-                                                separator=","
-                                                direction="up"
-                                                duration={1}
-                                                className="count-up-text"
-                                            />
-                                            /
-                                             <CountUp
-                                                from={0}
-                                                to={7}
-                                                separator=","
-                                                direction="up"
-                                                duration={1}
-                                                className="count-up-text"
-                                            />
-                                            </div>
-                                        <div className="text-sm text-gray-600">{t('stats.support')}</div>
-                                    </div>
-                                    <div className="text-center p-4 bg-brand-50 rounded-lg">
-                                        <div className="text-2xl font-bold text-brand-600">
+                                    <div className="min-w-[120px]">
+                                        <div className="text-3xl font-semibold text-gray-900">
                                             <CountUp
                                                 from={0}
                                                 to={100}
@@ -117,10 +83,32 @@ export default function About() {
                                             />
                                             +
                                         </div>
-                                        <div className="text-sm text-gray-600">{t('stats.cities')}</div>
+                                        <div className="text-sm text-gray-600 mt-2 uppercase tracking-wide">
+                                            {t('stats.cities')}
+                                        </div>
                                     </div>
                                 </div>
                             </NoSSR>
+                        </div>
+
+                        {/* Image Section */}
+                        <div className="order-1 lg:order-2">
+                            <div className="relative max-w-md lg:max-w-lg ml-auto pb-20">
+                                <div className="rounded-3xl overflow-hidden shadow-xl">
+                                    <img
+                                        src="https://picsum.photos/800/560?random=city"
+                                        alt="Modern Professional Office - Kevin Guna Pratama"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                                <div className="absolute bottom-5 -left-10 w-3/4 rounded-3xl overflow-hidden shadow-2xl">
+                                    <img
+                                        src="https://picsum.photos/700/480?random=engineering"
+                                        alt="Technician working on ATM hardware"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
